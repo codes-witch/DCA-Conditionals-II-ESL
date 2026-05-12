@@ -22,10 +22,10 @@ cond_topic_ids <- c(59, 104, 97, 109, 119, 82, 120, 100, 46, 88, 75, 108, 67, 10
   sort()
 
 # read in CSV file with Conditionals Type II (CII) obtained from the analyses with Stanza (see Python scripts 01_ParseEssays.py and 02_IDConditionals.ipynb)
-cond_ii <- read.csv2("./Python output files/02_conditionals_ii.csv", sep=",")
+cond_ii <- read.csv2("../Python output files/02_conditionals_ii.csv", sep=",")
 
 # read in the word counts per topic
-topic_nwords <- fromJSON(paste(readLines("./Python output files/topic_word_count.json"), collapse="")) %>%
+topic_nwords <- fromJSON(paste(readLines("../Python output files/topic_word_count.json"), collapse="")) %>%
   enframe(name = "topic", value = "n_words")
 topic_nwords$n_words <- as.numeric(topic_nwords$n_words)
 
@@ -88,7 +88,7 @@ tail(freqs_with_resids, 5) %>%
 
 ```
 
-### Visualizing verbal collexeme attraction to apodosis slot in upper vs. lower levels 
+### Visualizing verbal collexeme attraction to protasis slot in upper vs. lower levels 
 
 ```{r}
 # order by top upper residuals:
@@ -109,10 +109,10 @@ ggplot(top, aes(x = reorder(lemma, res_upper), y = res_upper, fill = res_upper >
     name   = "Level"
   ) +
   ylab("DCA Chi-squared residuals") +  
-  xlab("Verb collexemes in CII apodosis")
+  xlab("Verb collexemes in CII protasis")
 ```
 
-## Formulaic to productive: lexical variety in apodosis verb, looking at Entropy
+## Formulaic to productive: lexical variety in protasis verb, looking at Entropy
 ```{r}
 # Calculating H
 p_lower <- freqs_per_group[, "lower"] / sum(freqs_per_group[, "lower"])
