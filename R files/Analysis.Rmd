@@ -1,0 +1,173 @@
+---
+title: "Distinctive Collexeme Analysis in Learner Language"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+## Reading in the data and prepare it for use
+
+```{r}
+library(rjson)
+library(tidyverse)
+library(rlist)
+
+# topics where conditionals might be found
+cond_topic_ids <- c(59, 104, 97, 109, 119, 82, 120, 100, 46, 88, 75, 108, 67, 106, 77, 68, 73, 107, 110, 74) %>%
+  sort()
+
+# read in CSV file with Conditionals Type II (CII) obtained from the analyses with Stanza (see Python scripts 01_ParseEssays.py and 02_IDConditionals.ipynb)
+cond_ii <- read.csv2("../Python output files/02_conditionals_ii.csv", sep=",")
+
+# read in the word counts per topic
+topic_nwords <- fromJSON(paste(readLines("../Python output files/topic_word_count.json"), collapse="")) %>%
+  enframe(name = "topic", value = "n_words")
+topic_nwords$n_words <- as.numeric(topic_nwords$n_words)
+
+# some topics have no occurrences of CII, but are still part of the analyzed subcorpus. Avoid overlooking them
+cond_ii$topic <- factor(cond_ii$topic, levels = cond_topic_ids)
+
+```
+
+## Distinctive Collexeme Analysis
+
+Instead of comparing the differences in collexeme attraction to a slot in two different constructions, we compare the difference between use of the collexeme in one structure at two different levels of proficiency. 
+
+
+```{r}
+
+# Lemmas with too few occurrences in the corpus might be unreliable. Only graph those with at least this many occurrences
+MIN_LEMMA_OCCUR <- 5
+
+# cross-tabulate as per Gries (2023 p. 361)
+freqs_per_group <- table(lemma=cond_ii$cor_if_head_lemma, group=cond_ii$group) 
+
+# Extract lemmas that appear often enough in the corpus
+lemmas_threshold <- freqs_per_group %>%
+  as.data.frame() %>%
+  group_by(lemma) %>%
+  summarise(
+    sum = sum(Freq)
+  )%>%
+  filter(sum >= MIN_LEMMA_OCCUR) %>%
+  pull(lemma) %>%
+  as.character()
+
+print(paste("Lemmas with at least", MIN_LEMMA_OCCUR, "occurences:", str_flatten_comma(lemmas_threshold), "(", length(lemmas_threshold), ")"))
+
+# Go back to table format to be able to do Chi-square test
+freqs_per_group <- freqs_per_group %>%
+  as.data.frame() %>%
+  filter(lemma %in% as.character(lemmas_threshold)) %>%
+  xtabs(Freq ~ lemma + group, data = .)
+
+# Chi-square test as per Gries (2023) ---> Obtain residuals
+chisq <- chisq.test(freqs_per_group, correct = FALSE)
+chisq_res <- chisq$residuals
+
+
+freqs_with_resids <- data.frame(lower=freqs_per_group[,"lower"],
+                        upper=freqs_per_group[,"upper"],
+                        res_lower = chisq_res[, "lower"],
+                        res_upper = chisq_res[, "upper"]) %>%
+                        arrange(res_upper) %>%
+                        drop_na()
+
+print("Verbs disproportionally favored by learners at lower levels")
+print(head(freqs_with_resids, 5))
+
+print("Verbs disproportionally favored by learners at upper levels")
+tail(freqs_with_resids, 5) %>%
+  arrange(desc(res_upper)) %>%
+  print()
+
+```
+
+### Visualizing verbal collexeme attraction to apodosis slot in upper vs. lower levels 
+
+```{r}
+# order by top upper residuals:
+top_upper_res <- freqs_with_resids %>%
+  arrange(desc(res_upper)) %>%
+  filter(row.names(freqs_with_resids) %in% lemmas_threshold) # only graph the lemmas with enough occurrences
+
+library(ggplot2)
+top <- top_upper_res %>%
+  mutate(lemma = row.names(.))
+
+ggplot(top, aes(x = reorder(lemma, res_upper), y = res_upper, fill = res_upper > 0)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  scale_fill_manual(
+    values = c("TRUE" = "#4393C3", "FALSE" = "#D6604D"),
+    labels = c("TRUE" = "Upper levels (B2–C1)", "FALSE" = "Lower levels (A2–B1)"),
+    name   = "Level"
+  ) +
+  ylab("DCA Chi-squared residuals") +  
+  xlab("Verb collexemes in CII apodosis")
+```
+
+## Formulaic to productive: lexical variety in apodosis verb, looking at Entropy
+```{r}
+# Calculating H
+p_lower <- freqs_per_group[, "lower"] / sum(freqs_per_group[, "lower"])
+p_upper <- freqs_per_group[, "upper"] / sum(freqs_per_group[, "upper"])
+
+# remove 0's to be able to log
+p_lower <- p_lower[p_lower > 0]
+p_upper <- p_upper[p_upper > 0]
+
+H_lower <- -sum(p_lower * log2(p_lower))
+H_upper <- -sum(p_upper * log2(p_upper))
+
+# relative entropy
+Hrel_lower <- H_lower/ log2(length(p_lower))
+Hrel_upper <- H_upper /log2(length(p_upper))
+
+
+print(paste("Normalized entropy lower levels:", Hrel_lower))
+print(paste("Normalized entropy higher levels:", Hrel_upper))
+```
+
+
+
+## Calculating dispersion (DP and DP_norm)
+
+```{r}
+per_topic_freqs <- cond_ii %>%
+  group_by(topic) %>%
+  count(topic, .drop = FALSE, name = "n_cii")
+
+# add topic word count to frequency dataframe
+per_topic_freqs$nwords_topic <- topic_nwords$n_words[match(topic_nwords$topic, per_topic_freqs$topic)]
+
+total_words <- sum(per_topic_freqs$nwords_topic)
+
+# total number of type II conditionals
+total_n_cii <- sum(per_topic_freqs$n_cii)
+
+# % of words in the subcorpus that each part ("topic") comprises.
+per_topic_freqs$topic_perc_words <- per_topic_freqs$nwords_topic / total_words
+ 
+# if a part has 10% of the words in the corpus, the, assuming a uniform distribution, it should have 10% of the conditionals
+per_topic_freqs$expec_perc_ncii <- per_topic_freqs$topic_perc_words
+# actual percentage of CII found in this part of the corpus
+per_topic_freqs$obs_perc_ncii <- per_topic_freqs$n_cii / total_n_cii
+# calculate absolute difference between observed and expected percentages
+per_topic_freqs$abs_diff <- abs(per_topic_freqs$obs_perc_ncii - per_topic_freqs$expec_perc_ncii)
+
+# Calculate DP
+per_topic_dp <- sum(per_topic_freqs$abs_diff) / 2
+
+# DP_norm according to Correction to Stefan Th. Gries’ “Dispersions and adjusted frequencies in corpora”, International Journal of Corpus Linguistics, 13:4 (2008), 403–437
+per_topic_dpnorm <- per_topic_dp / (1 - 1/min(per_topic_freqs$nwords_topic))
+
+print(paste("DP:", per_topic_dp))
+print(paste("DP_norm:", per_topic_dpnorm))
+```
+
