@@ -31,12 +31,13 @@
 	bottom=2cm, % Defines bottom margin
 	left=2.2cm, % Defines left margin
 	right=2.2cm, % Defines right margin
-	includehead, % Includes space for a header
+	% includehead, % Includes space for a header
 	%includefoot, % Includes space for a footer
 	%showframe, % Uncomment if you want to show how it looks on the page 
 }
 
 \setlength{\parindent}{15pt} % Adjust to set you indent globally 
+ 
 
 %---------------------------------------------------------------------------------
 % Define your spacing
@@ -90,12 +91,6 @@
 
 %---------------------------------------------------------------------------------
 % Add field for signature (Reference: https://tex.stackexchange.com/questions/35942/how-to-create-a-signature-date-page)
-\newcommand{\signature}[2][5cm]{%
-  \begin{tabular}{@{}p{#1}@{}}
-    #2 \\[2\normalbaselineskip] \hrule \\[0pt]
-    {\small \textit{Signature}} \\[2\normalbaselineskip] \hrule \\[0pt]
-    {\small \textit{Place, Date}}
-  \end{tabular}
-}
 
 \setlength{\headheight}{14.5pt}
+\date{}
