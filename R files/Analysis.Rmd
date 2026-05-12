@@ -34,7 +34,7 @@ THRESHOLD_TOPIC_ID <- 73
 # Disadvantage: Many more tasks in upper than lower levels
 # -> might inherently cause more lexical variability. 
 # -> BUT, when running with a higher threshold (97, coinciding with the start of C1 and creating an exact 50-50 split in number of tasks), we obtain MUCH higher entropy for the higher levels.
-# Conclusion -> The higher variety of tasks in the upper levels is not the reason for its higher entropy. In fact, fewer, more advanced  
+# Conclusion -> The higher variety of tasks in the upper levels is not the reason for its higher entropy. In fact, fewer, more advanced tasks result in higher entropy 
 cond_ii <- cond_ii %>%
   mutate(group = if_else(topic < THRESHOLD_TOPIC_ID, "lower", "upper"))
 
