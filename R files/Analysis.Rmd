@@ -24,6 +24,20 @@ cond_topic_ids <- c(59, 104, 97, 109, 119, 82, 120, 100, 46, 88, 75, 108, 67, 10
 # read in CSV file with Conditionals Type II (CII) obtained from the analyses with Stanza (see Python scripts 01_ParseEssays.py and 02_IDConditionals.ipynb)
 cond_ii <- read.csv2("../Python output files/02_conditionals_ii.csv", sep=",")
 
+THRESHOLD_TOPIC_ID <- 73
+
+
+# Played with different boundaries between upper and lower levels. 
+# Splitting at topic 73 has two advantages and one major disadvantage:
+# Adv1: Most even split in the conditionals dataframe
+# Adv2: Coincides exactly with the threshold between B1 and B2 -> More interpretable?
+# Disadvantage: Many more tasks in upper than lower levels
+# -> might inherently cause more lexical variability. 
+# -> BUT, when running with a higher threshold (97, coinciding with the start of C1 and creating an exact 50-50 split in number of tasks), we obtain MUCH higher entropy for the higher levels.
+# Conclusion -> The higher variety of tasks in the upper levels is not the reason for its higher entropy. In fact, fewer, more advanced  
+cond_ii <- cond_ii %>%
+  mutate(group = if_else(topic < THRESHOLD_TOPIC_ID, "lower", "upper"))
+
 # read in the word counts per topic
 topic_nwords <- fromJSON(paste(readLines("../Python output files/topic_word_count.json"), collapse="")) %>%
   enframe(name = "topic", value = "n_words")
@@ -79,10 +93,10 @@ freqs_with_resids <- data.frame(lower=freqs_per_group[,"lower"],
                         drop_na()
 
 print("Verbs disproportionally favored by learners at lower levels")
-print(head(freqs_with_resids, 5))
+print(head(freqs_with_resids))
 
 print("Verbs disproportionally favored by learners at upper levels")
-tail(freqs_with_resids, 5) %>%
+tail(freqs_with_resids) %>%
   arrange(desc(res_upper)) %>%
   print()
 
@@ -106,7 +120,7 @@ ggplot(top, aes(x = reorder(lemma, res_upper), y = res_upper, fill = res_upper >
   scale_fill_manual(
     values = c("TRUE" = "#4393C3", "FALSE" = "#D6604D"),
     labels = c("TRUE" = "Upper levels (B2–C1)", "FALSE" = "Lower levels (A2–B1)"),
-    name   = "Level"
+    name   = "Attraction"
   ) +
   ylab("DCA Chi-squared residuals") +  
   xlab("Verb collexemes in CII protasis")
@@ -142,6 +156,10 @@ print(paste("Normalized entropy higher levels:", Hrel_upper))
 per_topic_freqs <- cond_ii %>%
   group_by(topic) %>%
   count(topic, .drop = FALSE, name = "n_cii")
+
+per_group_freqs <- cond_ii %>%
+  group_by(group) %>%
+  count(group, .drop = FALSE, name = "n_cii")
 
 # add topic word count to frequency dataframe
 per_topic_freqs$nwords_topic <- topic_nwords$n_words[match(topic_nwords$topic, per_topic_freqs$topic)]
