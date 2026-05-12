@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gries(2008)]{griesDispersionsAdjustedFrequencies2008}
+Stefan~Th. Gries.
+\newblock Dispersions and adjusted frequencies in corpora.
+\newblock \emph{International Journal of Corpus Linguistics}, 13\penalty0 (4):\penalty0 403--437, December 2008.
+\newblock ISSN 1384-6655, 1569-9811.
+\newblock \doi{10.1075/ijcl.13.4.02gri}.
+
+\end{thebibliography}
