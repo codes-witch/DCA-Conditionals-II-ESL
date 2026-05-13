@@ -1646,7 +1646,9 @@ THRESHOLD_TOPIC_ID &lt;- 73
 # Adv1: Most even split in the conditionals dataframe
 # Adv2: Coincides exactly with the threshold between B1 and B2 -&gt; More interpretable?
 # Disadvantage: Many more tasks in upper than lower levels
-  # -&gt; might inherently cause more lexical variability, 
+# -&gt; might inherently cause more lexical variability. 
+# -&gt; BUT, when running with a higher threshold (97, coinciding with the start of C1 and creating an exact 50-50 split in number of tasks), we obtain MUCH higher entropy for the higher levels.
+# Conclusion -&gt; The higher variety of tasks in the upper levels is not the reason for its higher entropy. In fact, fewer, more advanced tasks result in higher entropy 
 cond_ii &lt;- cond_ii %&gt;%
   mutate(group = if_else(topic &lt; THRESHOLD_TOPIC_ID, &quot;lower&quot;, &quot;upper&quot;))
 
@@ -1655,6 +1657,11 @@ topic_nwords &lt;- fromJSON(paste(readLines(&quot;../Python output files/topic_w
   enframe(name = &quot;topic&quot;, value = &quot;n_words&quot;)
 topic_nwords$n_words &lt;- as.numeric(topic_nwords$n_words)
 
+level_nwords &lt;- topic_nwords %&gt;%
+  mutate(level=if_else(topic &lt; THRESHOLD_TOPIC_ID, &quot;lower&quot;, &quot;upper&quot;))%&gt;%
+  group_by(level) %&gt;%
+  summarise(n_words = sum(n_words))
+ 
 # some topics have no occurrences of CII, but are still part of the analyzed subcorpus. Avoid overlooking them
 cond_ii$topic &lt;- factor(cond_ii$topic, levels = cond_topic_ids)</code></pre>
 </div>
@@ -1783,33 +1790,48 @@ per_group_freqs &lt;- cond_ii %&gt;%
   count(group, .drop = FALSE, name = &quot;n_cii&quot;)
 
 # add topic word count to frequency dataframe
-per_topic_freqs$nwords_topic &lt;- topic_nwords$n_words[match(topic_nwords$topic, per_topic_freqs$topic)]
+per_topic_freqs$n_words &lt;- topic_nwords$n_words[match(topic_nwords$topic, per_topic_freqs$topic)]
+per_group_freqs$n_words &lt;- level_nwords$n_words[match(level_nwords$level, per_group_freqs$group)]
 
-total_words &lt;- sum(per_topic_freqs$nwords_topic)
+total_words &lt;- sum(per_topic_freqs$n_words)
 
 # total number of type II conditionals
-total_n_cii &lt;- sum(per_topic_freqs$n_cii)
+total_n_cii &lt;- sum(per_topic_freqs$n_cii)</code></pre>
+<pre class="r"><code>print_dp_and_norm &lt;- function(df) {
+  
+  # % of words in the subcorpus that each part comprises.
+  df$perc_words &lt;- df$n_words / total_words
+  
+  # expected % under uniform distribution
+  df$expec_perc_ncii &lt;- df$perc_words
+  
+  # Observed %
+  df$obs_perc_ncii &lt;- df$n_cii / total_n_cii
+  
+  # Absolute difference
+  df$abs_diff &lt;- abs(df$obs_perc_ncii - df$expec_perc_ncii)
+  
+  # DP
+  dp &lt;- sum(df$abs_diff) / 2
+  
+  # DP_norm according to Correction to Stefan Th. Gries’ “Dispersions and adjusted frequencies in corpora”, International Journal of Corpus Linguistics, 13:4 (2008), 403–437
+  dp_norm &lt;- dp / (1 - 1 / min(df$n_words))
+  
+  # Print results
+  print(paste(&quot;DP:&quot;, dp))
+  print(paste(&quot;DP_norm:&quot;, dp_norm))
+}
 
-# % of words in the subcorpus that each part (&quot;topic&quot;) comprises.
-per_topic_freqs$topic_perc_words &lt;- per_topic_freqs$nwords_topic / total_words
- 
-# if a part has 10% of the words in the corpus, the, assuming a uniform distribution, it should have 10% of the conditionals
-per_topic_freqs$expec_perc_ncii &lt;- per_topic_freqs$topic_perc_words
-# actual percentage of CII found in this part of the corpus
-per_topic_freqs$obs_perc_ncii &lt;- per_topic_freqs$n_cii / total_n_cii
-# calculate absolute difference between observed and expected percentages
-per_topic_freqs$abs_diff &lt;- abs(per_topic_freqs$obs_perc_ncii - per_topic_freqs$expec_perc_ncii)
-
-# Calculate DP
-per_topic_dp &lt;- sum(per_topic_freqs$abs_diff) / 2
-
-# DP_norm according to Correction to Stefan Th. Gries’ “Dispersions and adjusted frequencies in corpora”, International Journal of Corpus Linguistics, 13:4 (2008), 403–437
-per_topic_dpnorm &lt;- per_topic_dp / (1 - 1/min(per_topic_freqs$nwords_topic))
-
-print(paste(&quot;DP:&quot;, per_topic_dp))</code></pre>
-<pre><code>## [1] &quot;DP: 0.592749299487874&quot;</code></pre>
-<pre class="r"><code>print(paste(&quot;DP_norm:&quot;, per_topic_dpnorm))</code></pre>
-<pre><code>## [1] &quot;DP_norm: 0.592870318128031&quot;</code></pre>
+print(&quot;Topics as parts&quot;)</code></pre>
+<pre><code>## [1] &quot;Topics as parts&quot;</code></pre>
+<pre class="r"><code>print_dp_and_norm(per_topic_freqs)</code></pre>
+<pre><code>## [1] &quot;DP: 0.592749299487874&quot;
+## [1] &quot;DP_norm: 0.592870318128031&quot;</code></pre>
+<pre class="r"><code>print(&quot;Lower/Upper level as parts&quot;)</code></pre>
+<pre><code>## [1] &quot;Lower/Upper level as parts&quot;</code></pre>
+<pre class="r"><code>print_dp_and_norm(per_group_freqs)</code></pre>
+<pre><code>## [1] &quot;DP: 0.100192896168231&quot;
+## [1] &quot;DP_norm: 0.100192951781424&quot;</code></pre>
 </div>
 
 

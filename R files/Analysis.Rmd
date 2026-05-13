@@ -43,6 +43,11 @@ topic_nwords <- fromJSON(paste(readLines("../Python output files/topic_word_coun
   enframe(name = "topic", value = "n_words")
 topic_nwords$n_words <- as.numeric(topic_nwords$n_words)
 
+level_nwords <- topic_nwords %>%
+  mutate(level=if_else(topic < THRESHOLD_TOPIC_ID, "lower", "upper"))%>%
+  group_by(level) %>%
+  summarise(n_words = sum(n_words))
+ 
 # some topics have no occurrences of CII, but are still part of the analyzed subcorpus. Avoid overlooking them
 cond_ii$topic <- factor(cond_ii$topic, levels = cond_topic_ids)
 
@@ -162,30 +167,44 @@ per_group_freqs <- cond_ii %>%
   count(group, .drop = FALSE, name = "n_cii")
 
 # add topic word count to frequency dataframe
-per_topic_freqs$nwords_topic <- topic_nwords$n_words[match(topic_nwords$topic, per_topic_freqs$topic)]
+per_topic_freqs$n_words <- topic_nwords$n_words[match(topic_nwords$topic, per_topic_freqs$topic)]
+per_group_freqs$n_words <- level_nwords$n_words[match(level_nwords$level, per_group_freqs$group)]
 
-total_words <- sum(per_topic_freqs$nwords_topic)
+total_words <- sum(per_topic_freqs$n_words)
 
 # total number of type II conditionals
 total_n_cii <- sum(per_topic_freqs$n_cii)
+```
 
-# % of words in the subcorpus that each part ("topic") comprises.
-per_topic_freqs$topic_perc_words <- per_topic_freqs$nwords_topic / total_words
- 
-# if a part has 10% of the words in the corpus, the, assuming a uniform distribution, it should have 10% of the conditionals
-per_topic_freqs$expec_perc_ncii <- per_topic_freqs$topic_perc_words
-# actual percentage of CII found in this part of the corpus
-per_topic_freqs$obs_perc_ncii <- per_topic_freqs$n_cii / total_n_cii
-# calculate absolute difference between observed and expected percentages
-per_topic_freqs$abs_diff <- abs(per_topic_freqs$obs_perc_ncii - per_topic_freqs$expec_perc_ncii)
+```{r}
+print_dp_and_norm <- function(df) {
+  
+  # % of words in the subcorpus that each part comprises.
+  df$perc_words <- df$n_words / total_words
+  
+  # expected % under uniform distribution
+  df$expec_perc_ncii <- df$perc_words
+  
+  # Observed %
+  df$obs_perc_ncii <- df$n_cii / total_n_cii
+  
+  # Absolute difference
+  df$abs_diff <- abs(df$obs_perc_ncii - df$expec_perc_ncii)
+  
+  # DP
+  dp <- sum(df$abs_diff) / 2
+  
+  # DP_norm according to Correction to Stefan Th. Gries’ “Dispersions and adjusted frequencies in corpora”, International Journal of Corpus Linguistics, 13:4 (2008), 403–437
+  dp_norm <- dp / (1 - 1 / min(df$n_words))
+  
+  # Print results
+  print(paste("DP:", dp))
+  print(paste("DP_norm:", dp_norm))
+}
 
-# Calculate DP
-per_topic_dp <- sum(per_topic_freqs$abs_diff) / 2
-
-# DP_norm according to Correction to Stefan Th. Gries’ “Dispersions and adjusted frequencies in corpora”, International Journal of Corpus Linguistics, 13:4 (2008), 403–437
-per_topic_dpnorm <- per_topic_dp / (1 - 1/min(per_topic_freqs$nwords_topic))
-
-print(paste("DP:", per_topic_dp))
-print(paste("DP_norm:", per_topic_dpnorm))
+print("Topics as parts")
+print_dp_and_norm(per_topic_freqs)
+print("Lower/Upper level as parts")
+print_dp_and_norm(per_group_freqs)
 ```
 
