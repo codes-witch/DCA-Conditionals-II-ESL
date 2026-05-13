@@ -873,6 +873,14 @@ INPUT content/5-discussion.tex
 INPUT ./content/5-discussion.tex
 INPUT ./content/5-discussion.tex
 INPUT content/5-discussion.tex
+INPUT ./content/6-appendix.tex
+INPUT content/6-appendix.tex
+INPUT ./content/6-appendix.tex
+INPUT content/6-appendix.tex
+INPUT ./content/tables/topics.tex
+INPUT content/tables/topics.tex
+INPUT ./content/tables/topics.tex
+INPUT content/tables/topics.tex
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
