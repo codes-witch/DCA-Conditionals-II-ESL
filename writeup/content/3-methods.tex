@@ -8,17 +8,16 @@
  The EF-Cambridge Open Language Database (EFCAMDAT), first presented by \citet{geertzen2013automatic}, is a large-scale learner corpus containing writings from the online English school \textit{Englishtown}.
  In their courses, each level corresponds to eight pedagogical units, after each of which students receive a prompt for a writing task that they must complete in order to advance. 
  The corpus comprises responses to these tasks in their original and corrected forms, along with metainformation about the text and the author (learner ID, country of origin, grade given by a teacher, etc.).
- An advantage of the EFCAMDAT, beyond being generally available for researchers at all stages, is the fact that \textit{Englishtown} levels are aligned with the CEFR, making it possible to do a broad range of descriptive analyses of L2 English at globally understood proficency levels.\footnote{The availability of large-scale, CEFR-aligned corpora is more limited than one might expect. The most well-known English learner corpus is the Cambridge Learner Corpus (CLC), whose access is highly restricted.}
+ An advantage of the EFCAMDAT, beyond being generally available for researchers at all stages, is the fact that \textit{Englishtown} levels are aligned with the Common European Framework of Reference (CEFR), making it possible to do a broad range of descriptive analyses of L2 English at globally understood proficency levels.\footnote{The availability of large-scale, CEFR-aligned corpora is more limited than one might expect. The most well-known English learner corpus is the Cambridge Learner Corpus (CLC), whose access is highly restricted.}
 
 This study used the version of EFCAMDAT cleaned and post-processed by \citep{oksus_alexopoulou_derkach_tsimpli_2025}, which contains 620{,}206 learner writings.
 However, it was unlikely for second conditionals to be elicited by most prompts; therefore, after qualitatively inspecting the task prompts, I decided on a subset of 20 tasks whose responses were most likely to contain the construction. 
-The selected units and corresponding writing topics are outlined in Table \ref{tab:topics} Appendix \ref{app:topic}, totaling 33{,}496 student writings and 4{,}402{,}652 words.
+The selected units and corresponding writing topics are outlined in Table \ref{tab:topics} in Appendix \ref{app:topic}, totaling 33{,}496 student writings and 4{,}402{,}652 words stemming from CEFR levels A2 to C1.
 
-TODO splitting into two levels
+Finally, to ensure sufficiently large samples of both learner texts and type II conditional instances, the writings were grouped into two proficiency bands: learners at CEFR levels A2 and B1 (“lower”) and learners at levels B2 and C1 (“upper”).
 
-\input{content/tables/topics.tex}
 
-\subsection{Extracting conditionals}
+\subsection{Extracting type II conditionals}
 
 All corrected learner writings in the subcorpus were automatically parsed using Stanza \citep{qi2020stanza}. 
 Using the corrected texts instead of the original ones is justified by the fact that accuracy does not factor into this study: 
@@ -37,7 +36,7 @@ For this study, I excluded sentences that expressed their conditional value thro
     \label{noncondif}
 \end{figure}
 
-Finally, all conditionals that fit all requirements were compiled into a CSV file with the full sentence, the lemma filling the verbal slot in the protasis and metadata about the writing prompt and response, such as the \textit{Englishtown} level the task stemmed from and the topic ID. 
+Finally, conditionals that fit all requirements were compiled into a CSV file with the full sentence, the lemma filling the verbal slot in the protasis, and relevant metadata about the writing prompt and response, such as the \textit{Englishtown} level the task stemmed from and the topic ID. 
 
 \subsection{Calculating dispersion across tasks and levels}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  13 MAY 2026 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.30)  13 MAY 2026 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -391,6 +391,11 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen281
 \Gm@layoutvoffset=\dimen282
 \Gm@dimlist=\toks42
+) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count301
+\c@@ppsavesec=\count302
+\c@@ppsaveapp=\count303
 ) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -741,10 +746,10 @@ LaTeX Font Info:    Setting XCharter-OsF sub-encoding to TS1/0 on input line 16.
 LaTeX Font Info:    Changing XCharter-TOsF sub-encoding to TS1/0 on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count301
+\etb@tempcnta=\count304
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count302
-\decimalpart=\count303
+\integerpart=\count305
+\decimalpart=\count306
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -767,7 +772,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks43
 \XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count304
+\XKV@depth=\count307
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
@@ -785,42 +790,42 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip64
 \bibsep=\skip65
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count305
+\c@NAT@ctr=\count308
 ) (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count306
-\c@Blindtext=\count307
-\c@blind@countparstart=\count308
-\blind@countxx=\count309
-\blindtext@numBlindtext=\count310
-\blind@countyy=\count311
-\c@blindlist=\count312
-\c@blindlistlevel=\count313
-\c@blindlist@level=\count314
-\blind@listitem=\count315
-\c@blind@listcount=\count316
-\c@blind@levelcount=\count317
-\blind@mathformula=\count318
-\blind@Mathformula=\count319
-\c@blind@randomcount=\count320
-\c@blind@randommax=\count321
-\c@blind@pangramcount=\count322
-\c@blind@pangrammax=\count323
+\c@blindtext=\count309
+\c@Blindtext=\count310
+\c@blind@countparstart=\count311
+\blind@countxx=\count312
+\blindtext@numBlindtext=\count313
+\blind@countyy=\count314
+\c@blindlist=\count315
+\c@blindlistlevel=\count316
+\c@blindlist@level=\count317
+\blind@listitem=\count318
+\c@blind@listcount=\count319
+\c@blind@levelcount=\count320
+\blind@mathformula=\count321
+\blind@Mathformula=\count322
+\c@blind@randomcount=\count323
+\c@blind@randommax=\count324
+\c@blind@pangramcount=\count325
+\c@blind@pangrammax=\count326
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip66
 \enit@outerparindent=\dimen283
 \enit@toks=\toks45
 \enit@inbox=\box63
-\enit@count@id=\count324
-\enitdp@description=\count325
+\enit@count@id=\count327
+\enitdp@description=\count328
 )
-\c@questionsi=\count326
-\c@questionsii=\count327
-\enitdp@questions=\count328
+\c@questionsi=\count329
+\c@questionsii=\count330
+\enitdp@questions=\count331
 )
 LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/xcharter/T1XCharter-TLF.fd
@@ -830,13 +835,9 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count329
+\l__color_backend_stack_int=\count332
 \l__pdf_internal_box=\box64
-) (./main.aux
-
-LaTeX Warning: Label `tab:topics' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -867,16 +868,16 @@ File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 LaTeX Font Info:    ... okay on input line 20.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count330
+\scratchcounter=\count333
 \scratchdimen=\dimen284
 \scratchbox=\box65
-\nofMPsegments=\count331
-\nofMParguments=\count332
+\nofMPsegments=\count334
+\nofMParguments=\count335
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count333
+\MPscratchCnt=\count336
 \MPscratchDim=\dimen285
-\MPnumerator=\count334
-\makeMPintoPDFobject=\count335
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
 \everyMPtoPDFconversion=\toks47
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -918,8 +919,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count336
-\c@mv@boldtabular=\count337
+\c@mv@tabular=\count339
+\c@mv@boldtabular=\count340
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 20.74pt on input line 24.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
@@ -949,31 +950,31 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 11.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./content/tables/topics.tex
-LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 7.
-
-Overfull \hbox (13.28763pt too wide) in paragraph at lines 5--31
- [][] 
- []
-
-) [2]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 29.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 28.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<images/noncond_if.png, id=15, 1395.2125pt x 212.795pt>
+<images/noncond_if.png, id=12, 1395.2125pt x 212.795pt>
 File: images/noncond_if.png Graphic file (type png)
 <use images/noncond_if.png>
-Package pdftex.def Info: images/noncond_if.png  used on input line 35.
+Package pdftex.def Info: images/noncond_if.png  used on input line 34.
 (pdftex.def)             Requested size: 330.61972pt x 50.42569pt.
- [3 <./images/noncond_if.png>]) (./content/4-resuts.tex
-<images/Residuals.png, id=22, 494.34688pt x 305.64188pt>
+ [2]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 49.
+) (./content/4-resuts.tex
+<images/Residuals.png, id=18, 494.34688pt x 305.64188pt>
 File: images/Residuals.png Graphic file (type png)
 <use images/Residuals.png>
 Package pdftex.def Info: images/Residuals.png  used on input line 11.
 (pdftex.def)             Requested size: 330.61972pt x 204.41054pt.
-) (./content/5-discussion.tex) [4 <./images/Residuals.png (PNG copy)>] (./content/6-appendix.tex (./content/tables/topics.tex
+) (./content/5-discussion.tex) [3 <./images/noncond_if.png>] [4 <./images/Residuals.png (PNG copy)>] (./content/6-appendix.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 3.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 24.88pt on input line 3.
+ (./content/tables/topics.tex
 Overfull \hbox (13.28763pt too wide) in paragraph at lines 5--31
  [][] 
  []
@@ -1023,21 +1024,17 @@ Underfull \hbox (badness 2376) in paragraph at lines 45--50
 \T1/XCharter-TLF/m/n/12 cle: A large-scale cor-pus study.  2025.  doi: 10.17863/CAM.122590.  URL
  []
 
-) [1] (./main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) [1] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 19226 strings out of 478287
- 385314 string characters out of 5849289
- 677681 words of memory out of 5000000
- 37000 multiletter control sequences out of 15000+600000
- 549757 words of font info for 83 fonts, out of 8000000 for 9000
+ 19342 strings out of 478287
+ 387284 string characters out of 5849289
+ 674085 words of memory out of 5000000
+ 37114 multiletter control sequences out of 15000+600000
+ 562395 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,11n,107p,643b,292s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,11n,107p,684b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (6 pages, 332265 bytes).
+Output written on main.pdf (6 pages, 331539 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
