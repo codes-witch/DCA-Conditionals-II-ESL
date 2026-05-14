@@ -23,7 +23,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,131573,1116307,lower,True,"If I had a chance, I'd move to our foreign office for two years or more to take some international experiences and learn more about another country.",had,have,move,'d
 59,141395,1124759,lower,True,"If I had the degree, I might be the president.",had,have,had,
 59,141395,1124759,lower,True,"If I had enough finance, I could open my own elementary school.",had,have,open,could
-59,83222,1130242,lower,True,"If I didn't trust my abilities, I wouldn't be so optimist.",did,do,trust,did
+59,83222,1130242,lower,True,"If I didn't trust my abilities, I wouldn't be so optimist.",trust,trust,trust,did
 59,87938,1135609,lower,True,"If I had the chance, I would like to study engineering management to brush up my knowledge.%%",had,have,like,would
 59,10021,1142295,lower,True,"Although I intend to help needy people, if I had my own Hospital I could help much more people.",had,have,help,could
 59,156836,1153741,lower,True,I have the chance to discover and complete my degrees with an experience that I'd never have if I were worked in another firm.,worked,work,have,
@@ -68,13 +68,12 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,116937,205681,lower,True,"If I had a few millions, I would help a lot of people.",had,have,help,would
 59,116937,205681,lower,True,"If I had a few millions, I would go on a world tour.",had,have,go,would
 59,116937,205681,lower,True,"If I had a few millions, I would buy a new car.",had,have,buy,would
-59,5557,207872,lower,True,"Maybe if I were a billionaire I wouldnt want to work, Id spend my time on travelling, shopping and never get tired of it.",were,be,want,would
-59,67174,209035,lower,True,"If I didn't have so much money, I wouldn't mind at all because I'd prefer to have a healthy life and the love of my family would give me all that I need.",did,do,mind,would
+59,67174,209035,lower,True,"If I didn't have so much money, I wouldn't mind at all because I'd prefer to have a healthy life and the love of my family would give me all that I need.",have,have,mind,would
 59,64613,210244,lower,True,"But sometimes, I think , if I won the lottery, I would buy a big house, I would travel around the world with my family.",won,win,think,
 59,12944,212829,lower,True,"I would be very, very happy if I had twins.",had,have,be,
 59,142211,215198,lower,True,"If I was a football player, I'd to travel to many places.",was,be,travel,'d
 59,142211,215198,lower,True,"If I wasn't learning computer science,I'd like tobe a doctor.",was,be,like,'d
-59,142211,215198,lower,True,"Finally, If I didn't delete my data from my computer, I'd copy this data to CDs.",did,do,copy,'d
+59,142211,215198,lower,True,"Finally, If I didn't delete my data from my computer, I'd copy this data to CDs.",delete,delete,copy,'d
 59,73487,215437,lower,True,"I think if I won a million dollars, I'd solve some problems.",won,win,think,
 59,97961,217936,lower,True,"If I made it, I'd go down from there mountain skiing.",made,make,go,'d
 59,97961,217936,lower,True,"If I dived to a depth of 50 m, I'd take some natural sea shells.",dived,dive,take,'d
@@ -150,7 +149,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,67244,366142,lower,True,"If I was young, if I had a lot of money and if I could speak English fluently, my dreams, certainly would be different.",was,be,had,
 59,159249,36938,lower,True,"If I won a million, I would like to fly to egypt and swim in the sea, I would visit China, I would learn another language, I would like to buy a big house.",won,win,like,would
 59,159249,36938,lower,True,If I had a long vacation I would visit all the islands around the world.,had,have,visit,would
-59,132616,390385,lower,True,"If I did not have three children, the apartment would have been perfect.",did,do,have,did
+59,132616,390385,lower,True,"If I did not have three children, the apartment would have been perfect.",have,have,have,did
 59,163664,395205,lower,True,"If I had a part time job, this dream would come true.",had,have,come,would
 59,163664,395205,lower,True,"If I had enough money, I could travel more.",had,have,travel,could
 59,78383,399999,lower,True,"If I had one day or better one month to live, I would travel around the world.",had,have,travel,would
@@ -209,7 +208,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,171334,551410,lower,True,"2. If I had the opportunity, I'd like to meet the new Pope.",had,have,like,'d
 59,106933,556725,lower,True,"If I had money, i would go to Fujiyama in Japan to learn to ski.",had,have,go,would
 59,102309,557615,lower,True,"If I won the lottery, I would immigrate to Australia and buy a big house there.",won,win,immigrate,would
-59,131927,557991,lower,True,"If I didn't come to Gangdong, I would not be in sales.",did,do,come,did
+59,131927,557991,lower,True,"If I didn't come to Gangdong, I would not be in sales.",come,come,come,did
 59,79727,559373,lower,True,"If I got one million dollars, I would contribute to the Red Cross Organize and help the dirty poor people or children in the orphanage.",got,get,contribute,would
 59,142069,559739,lower,True,"If I had enough money, I would travel the world with my wife and children.",had,have,travel,would
 59,147025,564535,lower,True,"I love to travel, so, if I had free time I would go to Miami and the Caribbean.",had,have,love,
@@ -279,7 +278,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,46231,87728,lower,True,If I had money I would visit Paris and walk through the city and admire this beautiful city.,had,have,visit,would
 59,49193,879027,lower,True,Dream I have a dream that I would have one son for my family if the policy allowed.,allowed,allow,have,
 59,159138,88397,lower,True,"If I won a lot of money in the lottery, my dreams could come true quickly.",won,win,come,could
-59,70584,899210,lower,True,If I didn't have a Doctorate I wouldn't have applied for the professorship.,did,do,applied,would
+59,70584,899210,lower,True,If I didn't have a Doctorate I wouldn't have applied for the professorship.,have,have,applied,would
 59,43112,900383,lower,True,"Maybe if I traveled around the world, I could figure out what I really want.",traveled,travel,figure,could
 59,156990,908661,lower,True,"Haha, now my dream is to become a billionaire, if I became a billionaire, I would travel around the world and a lot of charity help the poor people.",became,become,become,
 59,67638,935999,lower,True,"If I had enough time and money, I'd travel around the world.",had,have,travel,'d
@@ -325,7 +324,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 68,137222,55915,lower,True,"If I was hurt in the skydiving, I would be given some first-aid treatment.",hurt,hurt,given,would
 68,53980,580104,lower,True,They could avoid troubles and not pay heavy fines if thought about the consequences of their behavior.,thought,think,avoid,could
 68,166576,589997,lower,True,It would be easier if everyone was more careful and follow the rules.,was,be,be,
-68,136493,599797,lower,True,"If we didn't have any education (learn about the rules to live in group), we would be like animals.",did,do,have,did
+68,136493,599797,lower,True,"If we didn't have any education (learn about the rules to live in group), we would be like animals.",have,have,have,did
 68,149379,624219,lower,True,"I believe laws exist to let the world more secure and, if it were obey, the world would be better.",were,be,believe,
 68,119322,626354,lower,True,"If you were caught using the phone while driving, you would receive a very expensive fine and a note in your license to drive.",caught,catch,receive,would
 68,110260,657062,lower,True,"If the fine was increased and there was more inspection, people would respect more the law about talking on cellphones in the cars.",was,be,respect,would
@@ -348,7 +347,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 68,27566,819213,lower,True,"Maybe if all people followed the rules, we wouldn't have many accidents and deaths in traffic.",followed,follow,have,would
 68,155695,822528,lower,True,If you broke these laws you can lose your license and that could be a problem for people using car for their job.,broke,break,lose,can
 68,114585,826331,lower,True,"If the laws were enforced, we all could live better in this world.",enforced,enforce,live,could
-68,81607,827811,lower,True,It may cause serious car accidents if you didnt pay attention while driving.,did,do,cause,may
+68,81607,827811,lower,True,It may cause serious car accidents if you didnt pay attention while driving.,pay,pay,cause,may
 68,17794,856459,lower,True,"Many irresponsible peoples would drive their cars drunk, if not prohibited.",prohibited,prohibit,drive,would
 68,17794,856459,lower,True,"With the powerful cars today, if they weren't laws, many drivers would fly with their machines.",were,be,fly,would
 68,163696,861697,lower,True,I think if each person were to follow the rules our life would be safer and calmer.,were,be,think,
@@ -360,7 +359,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 68,37687,922036,lower,True,If rules were made to restrict using the mobile while driving not only talking using the accident would be decreased.,made,make,decreased,would
 68,46356,941395,lower,True,"If I were the mayor, I wouldn't be as rigid, but these days you can't trust in someone else's sense of what is right and wrong.",were,be,be,
 68,165004,941756,lower,True,I think it would be better if we had fewer rules and did not change them so often.,had,have,think,
-68,87980,952085,lower,True,If rules didn't exist we would kill each other.,did,do,kill,would
 68,21495,955679,lower,True,If people were arrested for breaking the safety laws in traffic maybe the quantity of death would decrease.,arrested,arrest,decrease,would
 68,167756,975569,lower,True,"If I were a governor, I would have forbidden all this.",were,be,forbidden,would
 68,116154,996136,lower,True,"Maybe, if we all were more careful than it wouldn't be necessary to create new laws.",were,be,were,
@@ -381,7 +379,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 107,121171,763560,upper,True,"But, let's go to our topic for saying that if I were the Major of my city my slogan would be: Lets practice what we preach.",were,be,let,
 107,104345,772062,upper,True,"If the government offered some financial incentives for example, more people could install the solar panels on their roofs and the energy from the sun would be converted into thermal or electrical energy for millions of people.",offered,offer,install,could
 107,11792,784578,upper,True,If I were you I'd start by focusing on the cause of the stress: first of all I'd try to eliminate work stress and I'd keep all the vacation time that I need.,were,be,start,'d
-107,44944,874426,upper,True,It would be possible if the council financed all expenses necessary for installation.%%,financed,finance,be,
 107,68852,950382,upper,True,"In addition, if my city decided to use it, the high quality battery could be needed.",decided,decide,needed,could
 107,116490,972952,upper,True,"If I were a Mayor of our city, I would use renewable energy to reduce polluting the environment.",were,be,use,would
 108,171334,551434,upper,True,"If I were you, I would immediately go back to school and make a qualified conclusion which allows you to study at the university.",were,be,go,would
@@ -411,12 +408,12 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,59533,1048883,upper,True,And it might be a mess if we decided to do all the things together.,decided,decide,be,
 73,169403,1049900,upper,True,There was a lot of pressure for him to quit because three months of work may be lost if these papers were not found.,found,find,was,
 73,74820,1091121,upper,True,"The COO argued that they had a new product but they needed more support from marketing department, if they were to do a very good job our product can run and it could be a success that would increase our sales.",were,be,argued,
-73,83204,1122671,upper,True,The CFO started by explaining that our company wouldn't have the conditions to go on if they didn't merge.,did,do,started,
+73,83204,1122671,upper,True,The CFO started by explaining that our company wouldn't have the conditions to go on if they didn't merge.,merge,merge,started,
 73,5183,1178532,upper,True,He tried to re-assure us about the fact that he would try to cut salaries as less as possible and only if was really necessary.,was,be,tried,
 73,145349,117961,upper,True,If I were you I would definitely apply for the job.,were,be,apply,would
 73,63785,1190786,upper,True,"However the executives from the new company said that we could keep our jobs, if we pushed ourselves.",pushed,push,said,
 73,79916,1192129,upper,True,"And, if there was no person interested, the deputy in charge would choose, personally, the persons contemplated.",was,be,choose,would
-73,59971,137767,upper,True,"If I didn't have a job yet, I would also apply for this position.",did,do,apply,would
+73,59971,137767,upper,True,"If I didn't have a job yet, I would also apply for this position.",have,have,apply,would
 73,27418,149168,upper,True,"You know few jobs are amazing and exhilarating and that is, all this characteristics and adjectives show you how funny and amazing it would be for you if you applied for it.",applied,apply,know,
 73,58756,161957,upper,True,It would amazing if you got this job.,got,get,got,
 73,141107,213501,upper,True,"If I were you, I would go and do this job immediately.",were,be,go,would
@@ -437,7 +434,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,105440,628198,upper,True,If I were young I would change to learn more in my life.,were,be,change,would
 73,100211,630949,upper,True,"(If I had your abilities, I would do it myself.)",had,have,do,would
 73,36483,633035,upper,True,Then the COO said that the investment plans would be damaged if the cash flow stayed negative for the next three months.,stayed,stay,said,
-73,77077,646425,upper,True,Make the board accept user research but if he was responsible before the law suit would rise to pay his offense which could lead him to jail.,was,be,Make,
 73,173121,647470,upper,True,"So, if I were you, I'd consider this offer carefully!",were,be,consider,'d
 73,142707,653619,upper,True,"I believe that if it was all that I have to say you would agree, but it's not all.",was,be,believe,
 73,3777,656885,upper,True,"If I were you, I would not waste any more time and urge to apply for this job.",were,be,waste,would
@@ -445,7 +441,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,170702,708987,upper,True,If they disagreed then they could give us a suggestion.,disagreed,disagree,give,could
 73,68291,741709,upper,True,"If our teams sat together, they might communicate better.",sat,sit,communicate,might
 73,102858,752213,upper,True,"I want to encourage you to apply, at least I would if I were you.",were,be,want,
-73,150154,758786,upper,True,If I didn't have a job already I would apply for it as well .,did,do,apply,would
+73,150154,758786,upper,True,If I didn't have a job already I would apply for it as well .,have,have,apply,would
 73,105050,762426,upper,True,You always said it would be exhilarating if you had an amazing job like that.,had,have,said,
 73,71155,795166,upper,True,"If were you, I would consider applying for it.",were,be,consider,would
 73,5591,798849,upper,True,I said that would cost a fortune and asked the client if he was ready to support the extra-costs.,was,be,said,
@@ -460,12 +456,12 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,115659,897929,upper,True,She insisted that it would better if they gave them a second chance.,gave,give,insisted,
 73,55424,910712,upper,True,He argued about the satisfaction he would get if the pilots attended the party.,attended,attend,argued,
 73,9127,917982,upper,True,The service director had the opinion that we could work faster if we put into operation a new computer system.,put,put,had,
-73,32971,921350,upper,True,"The company was founded by the grandfather of CEO and the latter thought that if this deal did not work out, he would regret it for ever.",did,do,founded,was
-73,119415,925436,upper,True,"If they didn't save the company now, we would be at home without a job.",did,do,save,did
+73,32971,921350,upper,True,"The company was founded by the grandfather of CEO and the latter thought that if this deal did not work out, he would regret it for ever.",work,work,founded,was
+73,119415,925436,upper,True,"If they didn't save the company now, we would be at home without a job.",save,save,save,did
 73,40358,930985,upper,True,"Besides, she thinks Sunset, the company that she would work for if she accepted the job, is a mess.",accepted,accept,thinks,
 73,12578,945676,upper,True,She said that we could not insist on a vacation if some of employees were not ready to take it.,were,be,said,
 73,571,956898,upper,True,"If we also fire the CFO as you suggested, I hope that he would participate in the team building.",suggested,suggest,hope,
-73,144361,957536,upper,True,The boss said that if we didn't integrate those classes we would be in big financial trouble.,did,do,said,
+73,144361,957536,upper,True,The boss said that if we didn't integrate those classes we would be in big financial trouble.,integrate,integrate,said,
 73,144952,980618,upper,True,"He argued that if we had an inspection from the CEO, we would all be in trouble, so the best way to prevent that is be ready for any inspection from the CEO or any other authority and this way to avoid any punishment or sanction.",had,have,argued,
 73,161198,991832,upper,True,He asked how they could reduce costs if the company was hiring more people.,was,be,asked,
 73,107740,997116,upper,True,"Hi, I would like to summarize the next steps we have decided during our last meeting: first, it's really important to move quickly on the emailing to our customers even if John disagreed and suggested that we should wait ans see what will be the new features of the new range.",suggested,suggest,like,would
@@ -561,7 +557,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,1120,641471,upper,True,"If you had both male and female superiors, would you feel comfortable reporting discrimination to either of them?",had,have,feel,would
 74,171636,641701,upper,True,Would you be afraid of your employer if you exercised your rights?,exercised,exercise,be,
 74,114210,645648,upper,True,"If you had the power of create rules about it, what would you do?",had,have,do,would
-74,20248,647280,upper,True,Do you think you would have evolved faster in the company if you were from the opposite gender?,were,be,think,Do
 74,20220,650808,upper,True,"If you saw someone being discriminated against in a company, what would you do?",saw,see,do,would
 74,10896,658209,upper,True,Would you tell to some one if you were discriminated at your workspace?,discriminated,discriminate,tell,Would
 74,56502,658453,upper,True,"If you were an employer, would you have favoritism towards either men or women?",were,be,have,would
@@ -662,7 +657,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 75,133856,1033295,upper,True,I would freak out if I wasn't so independent.,was,be,freak,would
 75,30403,1048565,upper,True,"This is not new, but politicians most think to legalize all the informal people that works on the street if they planned carefully a way to raise money from these people I believe our government could provide quality utilities and invest in education, medical insurance, technology, investigation, create new companies and employed and a lot of things that we need.",planned,plan,is,
 75,81371,1089305,upper,True,"If this came about, I would go back to work, after a year, in order to maintain my life and pay ongoing bills, such as insurance and housing.",came,come,go,would
-75,3072,1089424,upper,True,"My salary isn't high I would say, it's very low and if I didn't get a scholarship I would be broke, But now my monthly income is enough even to do savings to go somewhere abroad.",did,do,is,
+75,3072,1089424,upper,True,"My salary isn't high I would say, it's very low and if I didn't get a scholarship I would be broke, But now my monthly income is enough even to do savings to go somewhere abroad.",get,get,is,
 75,36793,1107034,upper,True,"If I moved, I would have to spend more money in moving and commuting.",moved,move,have,would
 75,84817,1133539,upper,True,"If I had greater income, my life would be simpler.",had,have,had,
 75,68765,1163574,upper,True,If they had a job they could pay their rent or mortgage.,had,have,pay,could
@@ -679,7 +674,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 75,140948,638628,upper,True,"Besides, not only will l benefit from stability of having it, but I would also benefit from freedom of changing it if needed.",needed,need,benefit,will
 75,174500,650167,upper,True,"Economists says that if the government had lower taxes, the purchases could increase and economy would be better than today.",had,have,says,
 75,158088,670143,upper,True,"Recently, she asked me why does she work so much and never have money, I tried to explain to her that she does not need two expensive cars and if she had a simple one, she would have more money to go out and travel.",had,have,asked,
-75,165748,707958,upper,True,It would be a shame if I didn't seize this opportunity and I hope you will agree with me.,did,do,be,
 75,81258,744206,upper,True,"If I bought this house, I would get some benefit property in the future.",bought,buy,get,would
 75,27224,754469,upper,True,"Many of them lost their homes because they couldn't pay their mortgage, even if they were thrifty.",were,be,lost,
 75,147181,767705,upper,True,"Beside that, if I had my own home, I would be free to make some changes in order to make it like I like.",had,have,had,
@@ -690,42 +684,42 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 75,100338,900327,upper,True,"And at the end, If I had a real financial problem here, I could always got some money from Brazil.",had,have,got,could
 75,125239,943014,upper,True,"Of course we could buy a better apartment if we decided to get a mortgage but that is the point, you should not spend more money than you really need.",decided,decide,buy,could
 77,52571,1007979,upper,True,"If I had to do an extreme sport, I would have tried hang gliding.",had,have,tried,would
-77,81696,1011600,upper,True,I knew I would always regret it if I did not try.,did,do,knew,
+77,81696,1011600,upper,True,I knew I would always regret it if I did not try.,try,try,knew,
 77,67762,1019379,upper,True,"If I had to go to a friends house I would go by skates, if I had to buy some food at the supermarket too, at the beach, and etc.",had,have,go,would
 77,167223,1025050,upper,True,"If I were young, I would have devoted myself to soccer.",were,be,devoted,would
-77,89827,1031155,upper,True,"I thought I would regret it, if I did not try.",did,do,thought,
+77,89827,1031155,upper,True,"I thought I would regret it, if I did not try.",try,try,thought,
 77,84487,1034256,upper,True,"That situation happened, because my friend told me that if I wimped out, he would think less of me.",wimped,wimp,happened,
 77,84487,1034256,upper,True,"So we argued, if I took up surfing, he would take up skydiving.",took,take,argued,
 77,128610,1038196,upper,True,I almost thought if I stood there I would shake in my shoes.,stood,stand,thought,
 77,128610,1038196,upper,True,But I could also feel that I would be happy if I flied in the sky and fall free just like a kid and I would see the flash of my life.,flied,flie,feel,could
-77,4874,1049198,upper,True,"However I knew that I would always regret it if I didn't face my fears, so I took up windsurfing again.",did,do,knew,
-77,78674,1049619,upper,True,"He said if I didn't go, I would regret what I was missing.",did,do,said,
-77,108354,1049752,upper,True,"I did not swim for a long time after that, however, after I had been away from swimming for a long time, I knew that I would always regret it if I did not face my fears.",did,do,swim,did
-77,136650,1050391,upper,True,But in the last few years a friend of mine realized that if she didn't take up extreme sports she would regret.,did,do,realized,
-77,89619,1051435,upper,True,According to my instructor I could have been hurt if I didn't control myself.,did,do,hurt,could
-77,143904,1057907,upper,True,"If I didn't try, I'd never hear the end of it.",did,do,hear,'d
+77,4874,1049198,upper,True,"However I knew that I would always regret it if I didn't face my fears, so I took up windsurfing again.",face,face,knew,
+77,78674,1049619,upper,True,"He said if I didn't go, I would regret what I was missing.",go,go,said,
+77,108354,1049752,upper,True,"I did not swim for a long time after that, however, after I had been away from swimming for a long time, I knew that I would always regret it if I did not face my fears.",face,face,swim,did
+77,136650,1050391,upper,True,But in the last few years a friend of mine realized that if she didn't take up extreme sports she would regret.,take,take,realized,
+77,89619,1051435,upper,True,According to my instructor I could have been hurt if I didn't control myself.,control,control,hurt,could
+77,143904,1057907,upper,True,"If I didn't try, I'd never hear the end of it.",try,try,hear,'d
 77,148560,1062389,upper,True,If it wasn't so expensive he would do it again anytime.,was,be,do,would
-77,111985,1065468,upper,True,"However, my friends urged me to play with them---I knew I would have never heard the end of it if I didn't play with them.",did,do,urged,
+77,111985,1065468,upper,True,"However, my friends urged me to play with them---I knew I would have never heard the end of it if I didn't play with them.",play,play,urged,
 77,94589,1067471,upper,True,My husband wanted to teach my boy there was nothing you could not conquer if you wanted to try!,wanted,want,wanted,
 77,141532,1068193,upper,True,But if I wimped out I would never hear the end of this.,wimped,wimp,hear,would
 77,15319,1081017,upper,True,If I had to choose an extreme sport I think I would take up skydiving.,had,have,think,
-77,154562,1084702,upper,True,"Besides, I would regret it if I didn't do that like all my colleagues.",did,do,regret,would
+77,154562,1084702,upper,True,"Besides, I would regret it if I didn't do that like all my colleagues.",do,do,regret,would
 77,739,1088483,upper,True,"To my surprise, the instructor told me that if I had nerves of steel I could try.",had,have,told,
-77,161092,1089321,upper,True,"Although, I have been snowboarding for a short time, I knew that I would always regret it if I didn't face my fears, so I continued snowboarding.",did,do,snowboarding,have
+77,161092,1089321,upper,True,"Although, I have been snowboarding for a short time, I knew that I would always regret it if I didn't face my fears, so I continued snowboarding.",face,face,snowboarding,have
 77,71658,1105723,upper,True,"But the teleski-man looked afraid and he explained to us if we crossed a lake and the ice would be crashed with our skis, we would be dead in the cold water.",crossed,cross,looked,
-77,8982,1105946,upper,True,"I would always regret it, if I didn't learned it.",did,do,regret,would
+77,8982,1105946,upper,True,"I would always regret it, if I didn't learned it.",learned,learn,regret,would
 77,154338,1110430,upper,True,I thought it was safe at the beginning because my friends who were next to me promised that they would definitely save me if there were anything wrong.,were,be,thought,
 77,8361,1116875,upper,True,"I want to have courage, so maybe if I trained little by little I could get, make and lose my fear.",trained,train,want,
 77,165230,1125955,upper,True,"If I had the chance to practice any extreme sport, I would like to practice white water rafting, I have practiced swimming before, may be it would be nice to practice surfing too, even though I have something very clear in my mind, I never would accept to be thrown in a parachute, or fly in any gliding device because I am scared of the height.",had,have,like,would
-77,105725,1126626,upper,True,"I thought of giving up, but if I didn't face my fear I would never hear the end of it.",did,do,thought,
+77,105725,1126626,upper,True,"I thought of giving up, but if I didn't face my fear I would never hear the end of it.",face,face,thought,
 77,148935,1131779,upper,True,"This sport is not extremely dangerous, but if you were me, I would see your life flash before your eyes.",were,be,is,
 77,120971,1153095,upper,True,"On these occasions, if it was not for help from other vessels, we could have even died.",was,be,died,could
-77,27530,1159727,upper,True,"However, after I had been away from skiing for a long time, I knew that I would always regret it if I didn't face my fears, so I started skiing again.",did,do,knew,
+77,27530,1159727,upper,True,"However, after I had been away from skiing for a long time, I knew that I would always regret it if I didn't face my fears, so I started skiing again.",face,face,knew,
 77,36518,1173398,upper,True,I believe that I would shake in my shoes if I had to face an adventure like this.,had,have,believe,
-77,114467,1180595,upper,True,I was never kind of thrill-seeker but somehow I felt like they wanted to show me up and if I didn't try I would never hear the end of it.,did,do,was,
-77,36039,1188506,upper,True,I know that to take it up I need to win my fear of heights but I also know that I would always regret it if I didn't face my fears.,did,do,know,
+77,114467,1180595,upper,True,I was never kind of thrill-seeker but somehow I felt like they wanted to show me up and if I didn't try I would never hear the end of it.,try,try,was,
+77,36039,1188506,upper,True,I know that to take it up I need to win my fear of heights but I also know that I would always regret it if I didn't face my fears.,face,face,know,
 77,148186,1188912,upper,True,"I wish I had the chance of falling from an airplane using parachutes, but that's very hard over here, maybe it would be easier if I traveled to Rio de Janeiro.",traveled,travel,wish,
-77,137897,1194741,upper,True,But then I thought about how much I would regret if I didn't even try.,did,do,thought,
+77,137897,1194741,upper,True,But then I thought about how much I would regret if I didn't even try.,try,try,thought,
 77,72916,1200250,upper,True,"I feel the thud of my heartbeat when only the airplane jolts, so I would easily pass out if I had to do extreme sports.",had,have,feel,
 77,5159,1205283,upper,True,It would be amazing if I found a way to surf at least one time in my life.,found,find,be,
 77,97236,238300,upper,True,"If I were you, I would also think of having a nice pool for theboys.",were,be,think,would
@@ -734,76 +728,76 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 77,105797,508602,upper,True,"The third offer - New Apartments - would be only suitable to the Blight's family needs, if they bought more than one apartment in order to provide own rooms for their boys.",bought,buy,be,
 77,5569,549493,upper,True,"Honestly, I wouldn't have any regret if I did it.",did,do,have,would
 77,171578,550463,upper,True,If I had to choose one I would opt by skydiving.,had,have,opt,would
-77,130246,554753,upper,True,"After that I knew that I would always regret it if I didn't face my fears, so I started rock climbing again.",did,do,knew,
-77,60425,555570,upper,True,"Id be able to do it, but if I didn't go, then I would never hear the end of it.",did,do,be,
+77,130246,554753,upper,True,"After that I knew that I would always regret it if I didn't face my fears, so I started rock climbing again.",face,face,knew,
+77,60425,555570,upper,True,"Id be able to do it, but if I didn't go, then I would never hear the end of it.",go,go,be,
 77,10314,570854,upper,True,"I just couldn't believe that I was doing that, but if I wimped out of it I would never hear the end of it.",wimped,wimp,believe,could
 77,112719,577447,upper,True,"To sum up, if I were you I would take Villa and business as my ideal home.",were,be,take,would
-77,166576,590004,upper,True,I knew that I would always regret it if I didn't face my fears and I decided to get down the fence little by little not at breakneck speed!.... .,did,do,knew,
+77,166576,590004,upper,True,I knew that I would always regret it if I didn't face my fears and I decided to get down the fence little by little not at breakneck speed!.... .,face,face,knew,
 77,128152,592886,upper,True,I still remember Josh saying he would think less of me if I wimped out.,wimped,wimp,remember,
-77,24046,631683,upper,True,"On top of that, if I didn't do it, I would never hear the end of it.",did,do,hear,would
+77,24046,631683,upper,True,"On top of that, if I didn't do it, I would never hear the end of it.",do,do,hear,would
 77,137512,637445,upper,True,But if there were some problem with people or equipment he wouldn't give his authorization.,were,be,give,would
 77,109870,638918,upper,True,"I could never practice this sport, because I think I would shake in my shoes if I tried to jump out of the plane.",tried,try,practice,could
 77,88652,642067,upper,True,"Many years have passed from that moment and I have to admit that if I got such an offer now, I would refuse it, because now I am a bit scared of such sports.",got,get,passed,have
 77,157351,642728,upper,True,"But I'm sure that, even if there was snow, I could never ski, I would be shaking in my shoes.",was,be,'m,
-77,159447,658304,upper,True,"Also, I felt that I would always regret it if didn't face my fear.",did,do,felt,
+77,159447,658304,upper,True,"Also, I felt that I would always regret it if didn't face my fear.",face,face,felt,
 77,19186,688005,upper,True,"I want to try it, but I wouldn't be able to do if I had an opportunity, because these machines show performance beyond my ability.",had,have,want,
 77,156793,689604,upper,True,I have felt so anxious to get into the cage and submerse but also I thought I could die if some wild and hungry shark decided to attack the cage.,decided,decide,felt,have
-77,19818,730466,upper,True,"However, after I had been away from biking for a long time, I knew that I would always regret it if I didn't face my fears, so I started biking again.",did,do,knew,
+77,19818,730466,upper,True,"However, after I had been away from biking for a long time, I knew that I would always regret it if I didn't face my fears, so I started biking again.",face,face,knew,
 77,104054,730716,upper,True,"Also because I gave it to him and if something went wrong, it would be my responsibility.",went,go,gave,
-77,137829,749043,upper,True,"However, after I had been away from surfing for a long time, I knew that I would always regret it if I didn't face my fears, so I started surfing again.",did,do,knew,
+77,137829,749043,upper,True,"However, after I had been away from surfing for a long time, I knew that I would always regret it if I didn't face my fears, so I started surfing again.",face,face,knew,
 77,102858,752217,upper,True,Although I got hurt I didn't regret it because I was challenged to do that and if I didn't I'd never hear the end of it.,did,do,regret,did
-77,133697,763692,upper,True,"I knew that I would always regret it if I didn't face my fears, so I started skiing again.",did,do,knew,
+77,133697,763692,upper,True,"I knew that I would always regret it if I didn't face my fears, so I started skiing again.",face,face,knew,
 77,1506,771665,upper,True,"Although I was not a thrill-seeker, I have never stopped thinking that It would definitely be amazing if I were a racer and driving a racing car at a breakneck speed.",were,be,stopped,have
-77,127809,780559,upper,True,My wife says that I have to take some risks or I would always regret it if didn't do something extreme.,did,do,says,
-77,126423,791327,upper,True,"I realized that if I didn't do it, I would never hear the end of it.",did,do,realized,
+77,127809,780559,upper,True,My wife says that I have to take some risks or I would always regret it if didn't do something extreme.,do,do,says,
+77,126423,791327,upper,True,"I realized that if I didn't do it, I would never hear the end of it.",do,do,realized,
 77,80150,796083,upper,True,"I always knew that if I didn''t dive, I would have regrets.",did,do,knew,
-77,7121,803596,upper,True,"However, after I had been away from motocross for a long time, I knew that I would always regret it if I didn't face my fears, so I started riding again.",did,do,knew,
+77,7121,803596,upper,True,"However, after I had been away from motocross for a long time, I knew that I would always regret it if I didn't face my fears, so I started riding again.",face,face,knew,
 77,79387,809998,upper,True,"If I had to choose some extreme sports I would choose white-water rafting, because a can swim very well.",had,have,choose,would
-77,152750,829314,upper,True,"However, after I had been away from climbing for a long time, I knew that I would always regret it if I didn't face my fears, so I started climbing again.",did,do,knew,
+77,152750,829314,upper,True,"However, after I had been away from climbing for a long time, I knew that I would always regret it if I didn't face my fears, so I started climbing again.",face,face,knew,
 77,33998,830812,upper,True,"I would not say, that it is extreme sport, if you took some trainings.",took,take,say,would
 77,16611,836703,upper,True,"More if it were to practice, surely I would jump with a parachute.",were,be,jump,would
-77,7132,842803,upper,True,Anyway I knew I'd never hear the end of it if I didn't accept to go with him and jump down a very rapid river or a raging torrent.,did,do,knew,
+77,7132,842803,upper,True,Anyway I knew I'd never hear the end of it if I didn't accept to go with him and jump down a very rapid river or a raging torrent.,accept,accept,knew,
 77,144713,845743,upper,True,"If Japanese business never failed and it has been keeping still brisk, we could be challenged extreme sports more, because most of them are costly.",failed,fail,challenged,could
-77,4223,846018,upper,True,"But I thought that if I didn't get over my fear of heights, I would always regret it.",did,do,thought,
-77,149661,855577,upper,True,"However, after I had been away from white-water rafting for a long time, I knew that I would always regret it if I didn't face my fears, so I started white-water rafting again.",did,do,knew,
+77,4223,846018,upper,True,"But I thought that if I didn't get over my fear of heights, I would always regret it.",get,get,thought,
+77,149661,855577,upper,True,"However, after I had been away from white-water rafting for a long time, I knew that I would always regret it if I didn't face my fears, so I started white-water rafting again.",face,face,knew,
 77,32531,858091,upper,True,"If I had to choose one , it would be skydiving.",had,have,skydiving,would
-77,3669,869960,upper,True,"My brother is a scuba diving professional, and if I didn't try to, I would never hear the end of it.",did,do,is,
-77,136591,871077,upper,True,"The risks were not as high as downhill, but sometimes we faced very technical ascents and descents that if you did not take attention you could fall from the bike and hurt yourself deeply.",did,do,were,
-77,108146,872015,upper,True,"However, I was brave enough and knew that if I did not face my fear would always be regretted.",did,do,was,
-77,114597,875289,upper,True,"I was afraid of exploring caves, but I knew I would always regret it if I didnt face my fear.",did,do,was,
+77,3669,869960,upper,True,"My brother is a scuba diving professional, and if I didn't try to, I would never hear the end of it.",try,try,is,
+77,136591,871077,upper,True,"The risks were not as high as downhill, but sometimes we faced very technical ascents and descents that if you did not take attention you could fall from the bike and hurt yourself deeply.",take,take,were,
+77,108146,872015,upper,True,"However, I was brave enough and knew that if I did not face my fear would always be regretted.",face,face,was,
+77,114597,875289,upper,True,"I was afraid of exploring caves, but I knew I would always regret it if I didnt face my fear.",face,face,was,
 77,72750,880814,upper,True,"I have never practiced any extreme sport, but if I were to practice one this would be skydiving for sure.",were,be,practiced,have
 77,44904,883918,upper,True,If I were on that plane I would have wimped out and given up.,were,be,wimped,would
 77,64331,894444,upper,True,"If I was not going, I would never hear the end of it!",was,be,hear,would
 77,60086,895695,upper,True,I would be more interested if it was a little bit more dangerous.,was,be,be,
-77,149875,906749,upper,True,"I knew that I would always regret it if I didn't face my fears, so I started with a little mountain again.",did,do,knew,
-77,162581,907028,upper,True,"So, I decided that I should try it because I knew I'd always regret it if I didn't face my fears.",did,do,decided,
-77,98021,909719,upper,True,I only did it because I was sure I would regret it if I didn't jump.,did,do,did,
+77,149875,906749,upper,True,"I knew that I would always regret it if I didn't face my fears, so I started with a little mountain again.",face,face,knew,
+77,162581,907028,upper,True,"So, I decided that I should try it because I knew I'd always regret it if I didn't face my fears.",face,face,decided,
+77,98021,909719,upper,True,I only did it because I was sure I would regret it if I didn't jump.,jump,jump,did,
 77,37402,916487,upper,True,If I were to practicer a extreme sport I would choose skydiving because I think is very great you feel yourself flying in the air like a bird.,were,be,choose,would
 77,84861,918592,upper,True,"None of this is attractive to me, but if I was invited to practice an extreme sport, I'll choose skydiving or hand gliding, I think that could be an amazing experience.",invited,invite,is,
 77,93618,932461,upper,True,"If I had opportunity an some day, I would like to go to M'naco to watch the GP of M'naco.",had,have,like,would
 77,164474,933166,upper,True,"When I was going to get in the plane, my legs were shaking and I was sweating profusely but I didn't want to wimp up because if I did, I would never get over my fear of heights.",did,do,shaking,were
-77,134026,948276,upper,True,But I knew that my fellow would make fun of me if I didn't go through the door.,did,do,knew,
-77,39916,948756,upper,True,"Although, if I did not face my fear, I would probably regret many things in my life.",did,do,regret,would
+77,134026,948276,upper,True,But I knew that my fellow would make fun of me if I didn't go through the door.,go,go,knew,
+77,39916,948756,upper,True,"Although, if I did not face my fear, I would probably regret many things in my life.",face,face,regret,would
 77,153912,962224,upper,True,"I don't practice any extreme sport, but if I had the opportunity to do rock climbing I definitely would try it.",had,have,practice,do
 77,105648,963658,upper,True,If there were the ocean near my place I would take up surfing.,were,be,take,would
-77,118504,963727,upper,True,"I knew that I would always regret it if I didn't face my fears, so I started swimming again.",did,do,knew,
+77,118504,963727,upper,True,"I knew that I would always regret it if I didn't face my fears, so I started swimming again.",face,face,knew,
 77,83279,966421,upper,True,"I'm sure if I tried, when the instructor tells me to get in the plan I would run away.",tried,try,'m,
 77,30669,979626,upper,True,"Maybe, if I attended at surfing classes, little by little I would learn how to surf and I could enjoy this sport.",attended,attend,learn,would
-77,74386,982940,upper,True,"When I was surfing the Internet, I watched a YouTube video about Para-motors sport, I was completely transfixed, and I decided that, even though I had debilitating a fear of height, that I didn't want to have any regrets in life, and if I didn't try something I was so fascinated by, that I would always regret that I had not faced my fears and done this.",did,do,watched,
+77,74386,982940,upper,True,"When I was surfing the Internet, I watched a YouTube video about Para-motors sport, I was completely transfixed, and I decided that, even though I had debilitating a fear of height, that I didn't want to have any regrets in life, and if I didn't try something I was so fascinated by, that I would always regret that I had not faced my fears and done this.",try,try,watched,
 77,23357,983792,upper,True,"But I liked it a little, and I think that if someone asked me do that again, I think that I would.",asked,ask,liked,
-77,75696,989029,upper,True,"However, after I had been away from windsurfing for a long time, I knew that I would always regret it if I didn't face my fears, so I started surfing again.",did,do,knew,
-77,95336,991275,upper,True,I knew that I would always regret it if I didn't join this activity.,did,do,knew,
+77,75696,989029,upper,True,"However, after I had been away from windsurfing for a long time, I knew that I would always regret it if I didn't face my fears, so I started surfing again.",face,face,knew,
+77,95336,991275,upper,True,I knew that I would always regret it if I didn't join this activity.,join,join,knew,
 77,155358,991336,upper,True,"But if I had to choose any extreme sport, I would go for surfing or windsurfing.",had,have,go,would
 77,74257,997263,upper,True,"I know that this is very dangerous, but if I did it, I would have a nice story to tell.",did,do,know,
 82,16578,1013312,upper,True,"Technology has really changed my life and if I had to give a testimonial of a particular machine, I would say 'smartphone'.",had,have,changed,has
 82,16847,1075992,upper,True,"My mother tells me that at previous times there was no internet and if you needed information about anything, you went to where you could get information.",needed,need,tells,
-82,75207,1081566,upper,True,I really don't know what I'd do if I didn't have it!,did,do,know,do
+82,75207,1081566,upper,True,I really don't know what I'd do if I didn't have it!,have,have,know,do
 82,171501,1087332,upper,True,"Imagine if all the records of your bank account were erased or modified, could you prove that your money is yours?",erased,erase,Imagine,
 82,30244,1108062,upper,True,"However, one of the biggest downsides is that sometime the speed is unsteady or that you would lose all of your things if your laptop or phone was going down.",was,be,is,
 82,44459,1165511,upper,True,There was a time that even if you forgot your watch at home you could do everything you needed to do.,forgot,forget,was,
 82,108065,1174000,upper,True,It would be better if people again started just talking with each other.,started,start,be,
 82,69397,1184631,upper,True,"I think if I had access to the Internet on my phone, I would be totally engrossed in it, as it's happening now at home.",had,have,think,
-82,98690,1186760,upper,True,Now I cant even imagine how it would be if I didnt have a computer and the internet.,did,do,imagine,ca
+82,98690,1186760,upper,True,Now I cant even imagine how it would be if I didnt have a computer and the internet.,have,have,imagine,ca
 82,72916,1200255,upper,True,"It's so convenient, and I would be at a loss if these systems were down, but on the other hand, the new crises have arrived.",were,be,'s,
 82,167703,126180,upper,True,"If I were you, I would start a CBT therapy where you can be taught in meditation to help you during a panic attack better than taking medications.",were,be,start,would
 82,107369,151414,upper,True,If I were you I would keep my job!,were,be,keep,would
@@ -830,7 +824,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 82,91171,911481,upper,True,And it wouldn't be possible if there wasn't this enormous growth in technology and new communication techniques.,was,be,be,
 82,15956,963882,upper,True,"If all people knew how to use technology and its resources with balance and wisdom, surely everyone's life would be better and more enjoyable.",knew,know,knew,
 82,110380,977910,upper,True,"If I asked them a question, I would have to wait at least 15 days for a response and they would get my comments about it only one month later.",asked,ask,have,would
-82,93479,980638,upper,True,I can't imagine how my summer abroad could be if I didn't call them all the time or only twice each 3 days.,did,do,imagine,ca
+82,93479,980638,upper,True,I can't imagine how my summer abroad could be if I didn't call them all the time or only twice each 3 days.,call,call,imagine,ca
 88,143562,11563,upper,True,Maybe if I had more free time I would not study more.,had,have,study,would
 88,121127,1322,upper,True,"If only I was ten years younger, that would be easier!",was,be,be,
 88,54079,549110,upper,True,"I say this because if I read individual words on a list I can recognize most of them but, to write a simple text like this probably I would consult a dictionary several times.",read,read,say,
@@ -845,5 +839,5 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 97,83534,830832,upper,True,These are only a few things I would change if only you voted for me.,voted,vote,are,
 97,113689,870271,upper,True,"I admire all types of them, however if I were able to be someone, I would choose to be a history maker.",were,be,admire,
 97,123735,902854,upper,True,All of the athletes today would not be where they are today if it wasn't for their athletic ability.,was,be,be,
-97,123735,902854,upper,True,If they did not apply what they learned then they would not be as successful as they are today.,did,do,apply,did
-97,126940,964626,upper,True,"They were extremely competitive and both had really great ideas, and I like to think that if one of them didn't exist, a lot of things that they invented wouldn't exist.",did,do,were,
+97,123735,902854,upper,True,If they did not apply what they learned then they would not be as successful as they are today.,apply,apply,apply,did
+97,126940,964626,upper,True,"They were extremely competitive and both had really great ideas, and I like to think that if one of them didn't exist, a lot of things that they invented wouldn't exist.",exist,exist,were,
