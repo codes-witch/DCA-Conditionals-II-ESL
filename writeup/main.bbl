@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -23,6 +23,13 @@ Stefan~Th. Gries.
 \newblock \emph{International Journal of Corpus Linguistics}, 13\penalty0 (4):\penalty0 403--437, December 2008.
 \newblock ISSN 1384-6655, 1569-9811.
 \newblock \doi{10.1075/ijcl.13.4.02gri}.
+
+\bibitem[Gries(2023)]{griesOverhaulingCollostructionalAnalysis2023}
+Stefan~Th. Gries.
+\newblock Overhauling {{Collostructional Analysis}}: {{Towards More Descriptive Simplicity}} and {{More Explanatory Adequacy}}.
+\newblock \emph{Cognitive Semantics}, 9\penalty0 (3):\penalty0 351--386, August 2023.
+\newblock ISSN 2352-6408, 2352-6416.
+\newblock \doi{10.1163/23526416-bja10056}.
 
 \bibitem[Gries and Ellis(2015)]{griesStatisticalMeasuresUsageBased2015}
 Stefan~Th. Gries and Nick~C. Ellis.
@@ -61,6 +68,14 @@ Anatol Stefanowitsch and Stefan~Th. Gries.
 \newblock \emph{International Journal of Corpus Linguistics}, 8\penalty0 (2):\penalty0 209--243, December 2003.
 \newblock ISSN 1384-6655, 1569-9811.
 \newblock \doi{10.1075/ijcl.8.2.03ste}.
+
+\bibitem[Sun and Wang(2021)]{kunEntropy2021}
+Kun Sun and Rong Wang.
+\newblock Using the relative entropy of linguistic complexity to assess l2 language proficiency development.
+\newblock \emph{Entropy}, 23\penalty0 (8), 2021.
+\newblock ISSN 1099-4300.
+\newblock \doi{10.3390/e23081080}.
+\newblock URL \url{https://www.mdpi.com/1099-4300/23/8/1080}.
 
 \bibitem[Öksüz et~al.(2025)Öksüz, Alexopoulou, Derkach, and Tsimpli]{oksus_alexopoulou_derkach_tsimpli_2025}
 Doğuş Öksüz, Theodora Alexopoulou, Kateryna Derkach, and Ianthi~Maria Tsimpli.

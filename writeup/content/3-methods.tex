@@ -55,11 +55,7 @@ For the purposes of this study, however, instead of comparing two analogous but 
 In recent years, \citeauthor{griesOverhaulingCollostructionalAnalysis2023} has devised an more computationally-efficient way of calculating association strengths in collostructional analysis by replacing contingency table-based computations with the residuals of the $\chi^2$-test, achieving extremely high correlations with the results of the traditional technique \citep{griesOverhaulingCollostructionalAnalysis2023}.
 Given its efficiency and relative simplicity, the present study adopts this updated approach.
 
-
-{Lexical variability}
-Entropy:
-
-\begin{quote}
-    A measure to quantify the very different frequency distributions is relative entropy Hrel, a measure of uncertainty that approximates 1 as distributions become more even (as in the left panel) and that approximates 0 as distributions become more uneven and, thus, more predictable (as in the right panel). The Zipfian distributions that are so omnipresent in corpus-linguistic data typically give rise to small entropy values; see also below. In sum, both dispersion and (relative) entropy are useful but as yet underutilized corpus statistics that should be considered more often in corpus-linguistic approaches to both cognitive/usage-based linguistics as well as psycholinguistics.
-\end{quote} 
-\citet{griesStatisticalMeasuresUsageBased2015}
+To quantify the lexical diversity of verbs filling the slot under discussion, I opted for an entropy-based approach. 
+Information-theoretic entropy ($H$) measures the uncertainty in a probability distribution: the more evenly distributed, the higher the entropy.
+When normalized to a 0-1 scale ($H_{rel}$), entropy values become comparable across distributions with different numbers of categories \citep{griesStatisticalMeasuresUsageBased2015}.
+Entropy-based measures have been used in SLA corpus research to investigate L2 development (for example, see \cite{kunEntropy2021} for an analysis of entropy and linguistic complexity done on the EFCAMDAT) and was thus deemed an appropriate measure for the purpose of comparing the breadth and distribution of verb lemmas in the relevant position. 
