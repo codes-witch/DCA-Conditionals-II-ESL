@@ -1,8 +1,6 @@
 topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,cor_main_head,cor_main_aux
 46,64583,217544,lower,True,"If I were you, I would do other activities.",were,be,do,would
 46,156801,68019,lower,True,If I were you I would see a doctor or look for a group to exchange ideas and probably it will help to keep you calm and away from stores around.,were,be,see,would
-46,129252,766108,lower,True,"But this game is very important to develop the reasoning for the two players, the strategy could modify if each piece is moved, I liked to play with my family.",moved,move,is,
-46,91079,783585,lower,True,"Each hand of the game is worth one point, and may be worth more if the game is truncated.",truncated,truncate,is,
 46,145226,806523,lower,True,If I had time of course I could play more.,had,have,play,could
 59,33434,1008775,lower,True,"If I had more money, I'd realize all of my dreams earlier, but we have what we have.",had,have,realize,'d
 59,26034,1011491,lower,True,Life would be easier if I earned more money.,earned,earn,be,
@@ -251,11 +249,9 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,106486,705959,lower,True,"If I won the lottery, I would become an athlete, and challenge a lot of world champions.",won,win,become,would
 59,43262,711307,lower,True,"If I had just one day to live, before this day came I would fly to Beijing city and climb the Great Wall, then I would go to America and visit every beautiful city, and I would travel around the world, also I would go to Switzerland to learn skiing, i would go to the Caribbean to swim in the sea.",came,come,fly,would
 59,140415,71232,lower,True,"In the future, I'd like to travel with my family to know as many places as possible, but this would happen only if I had much money and time to travel.",had,have,like,'d
-59,45355,727901,lower,True,"If my application is accepted, I would go to the US and study as hard as I can.",accepted,accept,go,would
 59,93211,73298,lower,True,If I won the lottery: - I would buy a new house; - I would travel around the world; - I would buy a Porshe Carrera; - I would buy a Yamaha V Max; - I would help homeless children in Africa; - I would only eat in the best restaurants.,won,win,buy,would
 59,145801,744280,lower,True,"If I had my own coffee shop, I could play the music in my coffee shop and make some cookies for my customer, arrange every decoration and plants I like to make the coffee shop warm and comfortable.",had,have,play,could
 59,171926,75016,lower,True,"Finally, when I'm about 50 years old, I would be content if I owned my own hospital and library.",owned,own,be,
-59,28217,758648,lower,True,"If I get seriously hurt, I might have to change my dreams.",hurt,hurt,have,might
 59,47870,760688,lower,True,If I were rich I'd study at MIT University.%%,were,be,study,'d
 59,85694,766052,lower,True,"If I were you, I would try to be an agronomist, my husband said.",were,be,try,would
 59,75723,766312,lower,True,"If everyone did something like it, the world would be better!",did,do,did,
@@ -273,7 +269,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 59,62087,814834,lower,True,I would be happier if I were a taxi driver.,were,be,be,
 59,95279,81593,lower,True,But I will write some things that would be great if they came true!,came,come,write,will
 59,49570,831991,lower,True,"If I were appointed as a sales manager of one specific market, I would try my best to exceed the expectation.%%",appointed,appoint,try,would
-59,169286,846225,lower,True,"If I were to be retired, I would like to do an interesting business, for example, a company consultant.",retired,retire,like,would
 59,142883,850382,lower,True,"If I had only half year to live, I would do such things below: 1. Fly to London and watch a foot game of Arsenal.",had,have,do,would
 59,100516,855180,lower,True,"If I were younger, I think it would be easier to get in a business career and take some calculated risks and start up a company which I could manage myself.",were,be,think,
 59,159182,856880,lower,True,"If I had more time and more money, I would have quitted my current job- even though my manager has been talking about promoting me as a personnel director.",had,have,quitted,would
@@ -300,22 +295,17 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 67,131625,25961,lower,True,We could give you a 5% discount if the order was 2000 or more.,was,be,give,could
 67,16006,267625,lower,True,"If you were to pay in advance, we could offer you a further discount: 15% on the final price.",were,be,offer,could
 67,154214,268346,lower,True,1. We could offer you 25% discount on pens if you were to order 1500 or more.,were,be,offer,could
-67,158478,329514,lower,True,"However, if you are supposed to purchase more than 1000 products, we could take 15% off the bill.",supposed,suppose,take,could
 67,153131,50270,lower,True,We would take 10% off the price list if you ordered 2000 and more.,ordered,order,take,would
 67,60624,544014,lower,True,"If you were to order $1000 or more by the end of this month, we could offer you a 10% discount.",were,be,offer,could
 67,153982,548021,lower,True,"You can pay by credit card or if it was in cash, we could give a further 5% discount.",was,be,pay,can
 67,50801,576135,lower,True,"I was thinking, it would be great if I consulted with a financial planner.",consulted,consult,thinking,was
 67,44258,583678,lower,True,"If I wanted, I would stop to work now e could live 2 year without any concern, but of course it is not good idea for me.",wanted,want,stop,would
-67,24378,607444,lower,True,If our product is not satisfied you could return the order within 14 days.,satisfied,satisfy,return,could
 67,132187,655683,lower,True,"If you ordered 2000 pens and 2000 notebooks or more, we would give a 15% discount.",ordered,order,give,would
 67,159406,803440,lower,True,"I hope that it is possible to run my company at least until I retire, but of course it would be much better, if it lasted longer.",lasted,last,hope,
 67,159406,803440,lower,True,"Most of all, it would be great if I stayed as healthy as I am nowadays and be as happy as possible.",stayed,stay,be,
-67,68432,85722,lower,True,Please return the product if you're not satisfied within 14 days after we'd delivered.,satisfied,satisfy,return,
 68,3519,1001783,lower,True,"I think if the managers made some necessary rules and did regular evacuate drills, maybe the accident would not have happened.",did,do,think,
 68,82991,1023982,lower,True,"Some times, you wouldn't have this luck because if you drank too much in a party and take your car, you perhaps would be arrest for a checking, you rate of alcohol will be too high and you would have to give your license.",drank,drink,have,would
 68,95668,1024004,lower,True,"When I was younger, I remember that two choices were possible if you traveled by train: you could have a seat in a smoking or non smoking compartment.",traveled,travel,remember,
-68,127994,1024324,lower,True,"These law says if you are caught driving, and you drink some thing alcoholic, you'll loose your license, pay a high bill, and you would not drive for 1 year.",caught,catch,says,
-68,57264,1039359,lower,True,"If you are caught by policemen, you would be sent to the police station, to be educated in a prison and you lose your license.",caught,catch,sent,would
 68,74291,1076607,lower,True,"If I had an accident and I didn't have a seatbelt, I would be 100% guilty.",had,have,had,
 68,74291,1076607,lower,True,"If I had an accident, when I was in the bus, who would be responsible?",had,have,had,
 68,51195,1090766,lower,True,"There is a little chance that you would be caught by a police, unless if a picture of yours was taken by a street camera.",taken,take,is,
@@ -332,15 +322,13 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 68,18145,477010,lower,True,I would be obliged if you gave me your view to this point.,gave,give,obliged,would
 68,65464,544785,lower,True,"If I was hurt, would I get the insurance?",hurt,hurt,get,would
 68,64908,545852,lower,True,I think the law in Australia is pretty good because if everyone followed their rules thousands of accidents could been avoided.,followed,follow,think,
-68,79383,548757,lower,True,"Kidnapping is considered as a serious crime, for that reason this law stipulates severe penalties for violation of its provisions and establishes a prison term of 20 to 40 years for anyone convicted, however if the victim is deprived of life, the prison term could be from 40 to 70 years.",deprived,deprive,considered,is
 68,137222,55915,lower,True,"If I was hurt in the skydiving, I would be given some first-aid treatment.",hurt,hurt,given,would
 68,53980,580104,lower,True,They could avoid troubles and not pay heavy fines if thought about the consequences of their behavior.,thought,think,avoid,could
 68,166576,589997,lower,True,It would be easier if everyone was more careful and follow the rules.,was,be,be,
 68,136493,599797,lower,True,"If we didn't have any education (learn about the rules to live in group), we would be like animals.",did,do,have,did
 68,149379,624219,lower,True,"I believe laws exist to let the world more secure and, if it were obey, the world would be better.",were,be,believe,
 68,119322,626354,lower,True,"If you were caught using the phone while driving, you would receive a very expensive fine and a note in your license to drive.",caught,catch,receive,would
-68,110260,657062,lower,True,"If the fine was increased and there was more inspection, people would respect more the law about talking on cellphones in the cars.",increased,increase,respect,would
-68,49102,657583,lower,True,"I also think that the criminals should be judged like in Arabia where if a person is caught committing a crime, such as a robbery, a part of his body is cut off like a hand or something; thus, the people would think hard before committing crimes.",caught,catch,think,
+68,110260,657062,lower,True,"If the fine was increased and there was more inspection, people would respect more the law about talking on cellphones in the cars.",was,be,respect,would
 68,69263,657923,lower,True,"That kind of rule is absolutely necessary because unfortunately, there are some people who would smoke if this rule wasn't there.",was,be,is,
 68,126785,664136,lower,True,"The score for accidents are worse and worse, so that the situation would be different if our laws were more severe.",were,be,are,
 68,113532,664880,lower,True,"It would be very good if here in Brazil the laws were strict as in Australia, or there were fewer laws but everything was implemented.",were,be,be,
@@ -353,10 +341,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 68,138300,694210,lower,True,"If the laws were enforced as they should be, the country would be much better.",enforced,enforce,enforced,were
 68,80900,73757,lower,True,Would you mind if she came tothe dropzone?,came,come,mind,Would
 68,133839,738373,lower,True,"If the world thought that we live in a society, and what we do can harm other human beings, and if we respected each other, maybe, it wouldn't be necessary to have as many laws as today.",thought,think,thought,
-68,28641,753363,lower,True,"If a driver is caught very drunk, he will be arrested and may serve terms of six months to three years.",caught,catch,arrested,will
 68,159521,756623,lower,True,If the payment was optional I think nobody would pay.,was,be,think,
-68,30502,77778,lower,True,"If I get damaged, I would receive medical treatment.",damaged,damage,receive,would
-68,160648,77973,lower,True,I'm aware of all risks I could have and I understand my responsibility if the equipment is stolen or suffers damages.,stolen,steal,'m,
 68,126233,788731,lower,True,If The motorways were more safe and the accidents would decrease.,were,be,were,
 68,94609,793668,lower,True,"Fines could be avoided if people were more educated and obeyed the laws, thus also avoiding a lot of problems for themselves.",educated,educate,avoided,could
 68,171257,813017,lower,True,"I am sure that if Brazil had this current law, there would probably be much less cars accidents.",had,have,am,
@@ -370,25 +355,18 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 68,168643,869078,lower,True,If this happened I think there would be less accidents.,happened,happen,think,
 68,46384,870646,lower,True,"I think there are other countries that have more strict rules, like Australia has a lot of rules, and the law is very strict, I think one of the more important rule is the one about the cellphones, that you cannot use it when you are driving, and if you broke the law, you have to pay an expensive fine for breaking the rule, I think they are very strict because they care too much about the people's security, and they don't want to have a lot of accidents, so I think that could be a good idea, for all the countries...",broke,break,think,
 68,146183,87133,lower,True,"I would be aware of my behavior and use all the equipment carefully, if I damaged the equipment I would have paid the cost.",damaged,damage,be,
-68,119633,872494,lower,True,"So here in Brazil it is too easy to break the laws, but if you are caught by a camera you will pay an expensive fine and also you might lose your license.",caught,catch,is,
-68,109723,873301,lower,True,"If you are caught drinking and driving you may go to the jail for 24 hours, and if you incise again and break the same law you can lose your license.",caught,catch,go,may
-68,171975,892333,lower,True,"However the law is very strict and hard, if the driver is caught driving drunk, without his permission he may be suspended and arrested.",caught,catch,is,
 68,67991,919543,lower,True,"When I read this text about laws in Australia, I thought that if these rules were brought to Brazil, Brazil would be a better place to live..",brought,bring,thought,
 68,9719,920301,lower,True,"If everyone did their part, the law would be more efficient and the law would attend to the aspirations of society.",did,do,did,
 68,37687,922036,lower,True,If rules were made to restrict using the mobile while driving not only talking using the accident would be decreased.,made,make,decreased,would
-68,46740,936611,lower,True,"If all your points are deducted in a year, you may lose your driver's license unless you take another test.",deducted,deduct,lose,may
 68,46356,941395,lower,True,"If I were the mayor, I wouldn't be as rigid, but these days you can't trust in someone else's sense of what is right and wrong.",were,be,be,
 68,165004,941756,lower,True,I think it would be better if we had fewer rules and did not change them so often.,had,have,think,
-68,125229,942191,lower,True,"If one of these conditions is not respected, you may pay a fine and sometimes, your driving license might be lost for several months.",respected,respect,pay,may
 68,87980,952085,lower,True,If rules didn't exist we would kill each other.,did,do,kill,would
 68,21495,955679,lower,True,If people were arrested for breaking the safety laws in traffic maybe the quantity of death would decrease.,arrested,arrest,decrease,would
-68,144361,957534,lower,True,"If people are found drunk while they are driving, they may get about a $600 fine or even be put into jail for a couple of months, but I think the laws or the regulations are not strict enough, because there are still a lot of people drunk driving and even causing a lot of car accidents.",found,find,get,may
 68,167756,975569,lower,True,"If I were a governor, I would have forbidden all this.",were,be,forbidden,would
 68,116154,996136,lower,True,"Maybe, if we all were more careful than it wouldn't be necessary to create new laws.",were,be,were,
 100,173281,1108665,upper,True,If there were no green businesses we even would not have a chance to use any sustainable products.,were,be,have,would
 100,14341,1141216,upper,True,"Although that means that I don't actually need to do an extra effort to go and buy green products, I'd still go and buy them if they weren't in my way because I believe that a green attitude doesn't only help the environment but also my health.%%",were,be,go,'d
 100,60075,1166599,upper,True,"If I had more money, I would like to invest in this kind of business.",had,have,like,would
-100,152944,545366,upper,True,The concern of the industries about biodegradable products and recyclable materials may be the most important thing in this century even if companies' profits are slightly reduced.,reduced,reduce,be,
 100,79727,559410,upper,True,I would definitely buy green products if it was more enviroment friendly.,was,be,buy,would
 100,173136,587882,upper,True,"If I were you, I would begin with preparing a cup of coffee in a thermo cup at home and taking it to work.",were,be,begin,would
 100,113532,664904,upper,True,"I mean, we would definitely buy that products if it was more environmentally friendly.",was,be,buy,would
@@ -402,12 +380,10 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 107,89675,735539,upper,True,"If I was asked to choose which kind of renewable energy we should invest in, I would probably say wind power.",asked,ask,say,would
 107,121171,763560,upper,True,"But, let's go to our topic for saying that if I were the Major of my city my slogan would be: Lets practice what we preach.",were,be,let,
 107,104345,772062,upper,True,"If the government offered some financial incentives for example, more people could install the solar panels on their roofs and the energy from the sun would be converted into thermal or electrical energy for millions of people.",offered,offer,install,could
-107,104345,772062,upper,True,"If in small countries such as Japan for example this kind of energy is widely used, in Brazil this kind of investment in large scale would be a successful.",used,use,used,is
 107,11792,784578,upper,True,If I were you I'd start by focusing on the cause of the stress: first of all I'd try to eliminate work stress and I'd keep all the vacation time that I need.,were,be,start,'d
 107,44944,874426,upper,True,It would be possible if the council financed all expenses necessary for installation.%%,financed,finance,be,
 107,68852,950382,upper,True,"In addition, if my city decided to use it, the high quality battery could be needed.",decided,decide,needed,could
 107,116490,972952,upper,True,"If I were a Mayor of our city, I would use renewable energy to reduce polluting the environment.",were,be,use,would
-108,164395,338982,upper,True,"Everyday everyone meets very different problems and difficulties and if they aren't completely solved and adequately fenced, they could remain unsolved and join to other problems: problems at work and in private life could cause stress.",solved,solve,meets,
 108,171334,551434,upper,True,"If I were you, I would immediately go back to school and make a qualified conclusion which allows you to study at the university.",were,be,go,would
 108,104371,593575,upper,True,"If I were you, I would go back to school and get a degree.",were,be,go,would
 108,140948,638657,upper,True,"If I were you, I would no doubt get back to school and get some important degrees that could get me promising job offers.",were,be,get,would
@@ -440,7 +416,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,145349,117961,upper,True,If I were you I would definitely apply for the job.,were,be,apply,would
 73,63785,1190786,upper,True,"However the executives from the new company said that we could keep our jobs, if we pushed ourselves.",pushed,push,said,
 73,79916,1192129,upper,True,"And, if there was no person interested, the deputy in charge would choose, personally, the persons contemplated.",was,be,choose,would
-73,33661,1208111,upper,True,"When the CFO said that the company would fall in financial troubles if the merger be concluded, the CEO didn't agree and suggested that the CFO wasn't prepared for changes and challenges.",concluded,conclude,agree,did
 73,59971,137767,upper,True,"If I didn't have a job yet, I would also apply for this position.",did,do,apply,would
 73,27418,149168,upper,True,"You know few jobs are amazing and exhilarating and that is, all this characteristics and adjectives show you how funny and amazing it would be for you if you applied for it.",applied,apply,know,
 73,58756,161957,upper,True,It would amazing if you got this job.,got,get,got,
@@ -468,7 +443,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,3777,656885,upper,True,"If I were you, I would not waste any more time and urge to apply for this job.",were,be,waste,would
 73,64538,671751,upper,True,If I were you I would apply .,were,be,apply,would
 73,170702,708987,upper,True,If they disagreed then they could give us a suggestion.,disagreed,disagree,give,could
-73,55383,731559,upper,True,"If you get hired, you will have full accident insurance, one month holiday every year and regular tips to Florida to observe crocodiles (I wish I could have this opportunity).",hired,hire,have,will
 73,68291,741709,upper,True,"If our teams sat together, they might communicate better.",sat,sit,communicate,might
 73,102858,752213,upper,True,"I want to encourage you to apply, at least I would if I were you.",were,be,want,
 73,150154,758786,upper,True,If I didn't have a job already I would apply for it as well .,did,do,apply,would
@@ -480,7 +454,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 73,152130,822713,upper,True,"It would be really awful, if you missed this job.",missed,miss,be,
 73,58647,841489,upper,True,I think you would be really spread if you decided to apply for this job.,decided,decide,think,
 73,85724,851216,upper,True,"If I were you, I would apply for this job .",were,be,apply,would
-73,141325,852756,upper,True,"He argued that we have to think more about the merger, he added that it is risky, we could lose a lot of money if the merger is not correctly thought through.",thought,think,argued,
 73,60500,865254,upper,True,"If I were you, I wouldn't miss this opportunity!%%",were,be,miss,would
 73,16483,872242,upper,True,"At first, one of our team members proposed, for instance, to install a sensor lock on computers because I had my computer stolen while I was traveling on a train, and if the thief was to attempt to take the sensor lock off, we would be madeaware of their location via our Smart Phone System I argued that if one had no smart phone with them, how wouldthe feature function effectively?",was,be,proposed,
 73,109184,887036,upper,True,"If I had to give you only 1 reason, it would be this one: it deals with animals, and that's utterly what you desire!",had,have,had,
@@ -500,11 +473,8 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,103785,105766,upper,True,"If you were an employer, would you consider a woman's maternity leave while you're hiring?",were,be,consider,would
 74,69694,1059199,upper,True,"If a woman got married, we knew at once that she would leave the office.",married,marry,knew,
 74,15319,1081014,upper,True,If we compared the numbers of female empoyees in Italy and the idea that the society have of female roles with others European countries we would say that gender differences won't have been more a shame by a great work is done.,compared,compare,say,would
-74,88972,108838,upper,True,What would you do if one of your colleagues is discriminated against?,discriminated,discriminate,do,would
-74,168912,1090328,upper,True,"While in the northern part of the country women have their independence and may decide to continue to work even if they get married, in the south of the country this fact is less popular because the society expects that women take care of the house, husband and children once they get married.",married,marry,have,
 74,126489,1094239,upper,True,"If a family was not rich enough to afford all their childrens education, they would give up girls and send boys to school.",was,be,give,would
 74,94480,1113097,upper,True,"All in all, gender differences is so complicated, and even if we tried to make equality, some women would rather stick to the old fashion way where the men go to work and she takes care of her family.",tried,try,is,
-74,45239,1113487,upper,True,"The Japanese government sets various policies which stimulate the social progress of women, but many companies in Japan have concerns that women may retire if they are married.",married,marry,sets,
 74,139771,1135958,upper,True,"If they decided to study, they would be criticized by elders, because elders thought study were males job.",decided,decide,criticized,would
 74,45938,1140308,upper,True,"If I were a man, I would help my wife to clean the house, cook dinner and wash the familys clothes.",were,be,help,would
 74,143562,11545,upper,True,"If you are a lawyer in your country and a man told you that his boss, a woman, made direct sexual harassment against him, what would you say?",told,tell,say,would
@@ -521,7 +491,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,127895,212867,upper,True,"If you had the possibility of changing the law, what would your first actionbe to beat this enormous bane?",had,have,had,
 74,90613,21770,upper,True,Do you think you would earn more if you were a man?,were,be,think,Do
 74,93934,225619,upper,True,"If you were an employer, what would your company's policy be on this matter?",were,be,be,
-74,33896,227127,upper,True,"6. If a man with less experience than a woman is given the job or the promotion for which they both applied, could it give a rise to a claim for discrimination?",given,give,give,could
 74,121559,228802,upper,True,"If you were a man, do you think it would happen?",were,be,think,do
 74,128482,238622,upper,True,What would you do if your employer often asked you for a date?,asked,ask,do,would
 74,91690,244520,upper,True,"If you were an employer, could you make sure, that you will never discriminateagainst people because of their gender, religion, skin colour, marital status, height or weight?",were,be,make,could
@@ -537,12 +506,10 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,21716,329391,upper,True,If someone close to you was discriminated for any reason would you interfere or advise?,discriminated,discriminate,interfere,would
 74,7306,342480,upper,True,"If you were discriminatedagainst in the workplace, what would you do?",were,be,do,would
 74,154779,355800,upper,True,What would you do if you were being discriminated only because you are from a different race or ethnicity?,were,be,do,would
-74,96675,370640,upper,True,"7- If you are discriminated in your workplace, would you protest?",discriminated,discriminate,protest,would
 74,146031,380238,upper,True,If I went somewhere to interview someone I would like to ask him a few questions.,went,go,like,would
 74,146031,380238,upper,True,"I would ask him for some recomendations, and if any congratulated teachers ever saw the research and what they thought of it.",saw,see,ask,would
 74,115363,398864,upper,True,6. If you were in employers shoes would you treat women less favourable than men because of their maternity leave?,were,be,treat,would
 74,51267,420434,upper,True,Do you think you could afford a lawyer if you were discriminated?,discriminated,discriminate,think,Do
-74,13010,426225,upper,True,"What would you do, if a man with less experience than you is given the job or the promotion for which you both applied?",given,give,do,would
 74,19075,429959,upper,True,"If you were suffering sexual harassment from your boss, what would you do?",were,be,do,would
 74,17136,454416,upper,True,"If you were an employer, would you hire people above the age of 60 years old?",were,be,hire,would
 74,38098,462945,upper,True,How long would you expect to work for us if hired?,hired,hire,expect,would
@@ -553,13 +520,11 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,118460,534241,upper,True,"If you were a job interviewer, would you consider the age of people to give the job?",were,be,consider,would
 74,69001,536074,upper,True,What would you do if you felt you were being treated unlawfully?,felt,feel,do,would
 74,136570,544190,upper,True,"If you had both male and female superiors, would you feel comfortable reporting discrimination to either of them?",had,have,feel,would
-74,80018,549018,upper,True,How would you handle it if you get discriminated against because of your gender?,discriminated,discriminate,handle,would
 74,40687,549298,upper,True,What would you do better today if this fact happened again with you?,happened,happen,do,would
 74,58959,553410,upper,True,What would you do if a co-worker was suffering sex discrimination?,was,be,do,would
 74,134726,556278,upper,True,"4. If you were treated less favorably, what would you do?",treated,treat,do,would
 74,134726,556278,upper,True,7. What would you do if your friends or your colleagues were discriminated?,discriminated,discriminate,do,would
 74,134726,556278,upper,True,8. What would you do if your friends or your colleagues bullied other people?,bullied,bull,do,would
-74,67094,560869,upper,True,"And if you are discriminated, how would you feel or react?",discriminated,discriminate,feel,would
 74,67094,560869,upper,True,"If you saw a person suffering discrimination, you would help or just look?",saw,see,help,would
 74,52284,561187,upper,True,"If you were discriminated in your job, would you complain to your boss?",discriminated,discriminate,complain,would
 74,85063,561465,upper,True,"If you had both male and female superiors, would you feel comfortable reporting discrimination to either or them?",had,have,feel,would
@@ -576,9 +541,7 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,172676,578291,upper,True,What would you do if you were a victim of harassment?,were,be,do,would
 74,44258,583683,upper,True,"If you saw someone else being discriminated against, what would you do?",saw,see,do,would
 74,147031,585214,upper,True,What would you do if you felt that you were being discriminated?,felt,feel,do,would
-74,63718,589093,upper,True,Would you support the friends who report if they are discriminated against?,discriminated,discriminate,support,Would
 74,1128,589513,upper,True,Would you advise other female colleagues if you had a man boss who had discriminated you?,had,have,advise,Would
-74,1128,589513,upper,True,"If you are discriminated by a man workmate, would you feel comfortable to report discrimination to your man boss?",discriminated,discriminate,feel,would
 74,10713,590485,upper,True,"IF YOU were DISCRIMINATED against BECAUSE YOU ARE HISPANIC, WHAT WOULD YOU DO ABOUT IT?",DISCRIMINATED,discriminate,DO,WOULD
 74,128152,592883,upper,True,"If you were with someone being discriminated at your workplace, what kind of reaction would you have?",were,be,have,would
 74,25800,592975,upper,True,"If you had both male and female superiors, would you feel comfortable reporting discrimination to either of them?",had,have,feel,would
@@ -591,7 +554,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,88592,609831,upper,True,What would you do if you were a woman who was deterred for exercising you rights in case you were victimized by your employer?,were,be,do,would
 74,97265,611993,upper,True,"If a woman looked for a job out of the house, they would be strongly objected to, by society.",looked,look,objected,would
 74,77140,616101,upper,True,"If you were woman, the human resource department would ask you two private questions: 1 Are you married?",were,be,ask,would
-74,165375,621563,upper,True,Would you be able to file a discrimination claim if you are discriminated at work?-,discriminated,discriminate,be,
 74,88916,625557,upper,True,"If you were a victim of gender discrimination, how would you react?",were,be,react,would
 74,78273,628147,upper,True,"If you had both male and female superiors, would you feel comfortable reporting discrimination to either of them?",had,have,feel,would
 74,123866,632110,upper,True,7. Would you fight against your boss if you were treated unfairly?,treated,treat,fight,Would
@@ -696,8 +658,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 74,13545,950049,upper,True,"Those changes were conquered by popular demand, if it wasn't that way it would probably be even worst today.",was,be,conquered,were
 74,94464,954588,upper,True,Would this be different if men and women had an equal pay?,had,have,be,
 74,33366,97586,upper,True,"10. If you were an employer, would you treat men and women equally favorably , even if you would have to give women maternity leave?",were,be,treat,would
-74,152818,986263,upper,True,"If the laws accepted for the last five years are enforced, in the long term there would be an opportunity to qualitatively change the status of women in Russian society - to overcome existing gender asymmetry, or an inequality of chances for women and men.",enforced,enforce,be,would
-74,156131,987909,upper,True,"If women get married and have a child, it would be difficult to get a job.",married,marry,married,get
 75,122229,1031291,upper,True,"Also if the financial market was turning around, it would make it easier for the employees.",was,be,make,would
 75,133856,1033295,upper,True,I would freak out if I wasn't so independent.,was,be,freak,would
 75,30403,1048565,upper,True,"This is not new, but politicians most think to legalize all the informal people that works on the street if they planned carefully a way to raise money from these people I believe our government could provide quality utilities and invest in education, medical insurance, technology, investigation, create new companies and employed and a lot of things that we need.",planned,plan,is,
@@ -840,7 +800,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 82,75207,1081566,upper,True,I really don't know what I'd do if I didn't have it!,did,do,know,do
 82,171501,1087332,upper,True,"Imagine if all the records of your bank account were erased or modified, could you prove that your money is yours?",erased,erase,Imagine,
 82,30244,1108062,upper,True,"However, one of the biggest downsides is that sometime the speed is unsteady or that you would lose all of your things if your laptop or phone was going down.",was,be,is,
-82,108041,1117089,upper,True,"Personally, everyday I try to use them in the right way, because they are the best thing in the world, if they are used well; infact I use them to study, to play, to chat with my friends and family.%% I couldn't be happier with my new machines, they are changed my life!",used,use,try,
 82,44459,1165511,upper,True,There was a time that even if you forgot your watch at home you could do everything you needed to do.,forgot,forget,was,
 82,108065,1174000,upper,True,It would be better if people again started just talking with each other.,started,start,be,
 82,69397,1184631,upper,True,"I think if I had access to the Internet on my phone, I would be totally engrossed in it, as it's happening now at home.",had,have,think,
@@ -848,7 +807,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 82,72916,1200255,upper,True,"It's so convenient, and I would be at a loss if these systems were down, but on the other hand, the new crises have arrived.",were,be,'s,
 82,167703,126180,upper,True,"If I were you, I would start a CBT therapy where you can be taught in meditation to help you during a panic attack better than taking medications.",were,be,start,would
 82,107369,151414,upper,True,If I were you I would keep my job!,were,be,keep,would
-82,51919,27660,upper,True,The fear is rooted within the concern of what might happen if the victim gets confined to such a place and is unable to get out.,confined,confine,rooted,is
 82,39637,348738,upper,True,"I might also consider about resignation, if I had symptoms like yours, for example, irrational feeling, anxiety, panic, racing heart, etc in a train or the office.",had,have,consider,might
 82,154492,367836,upper,True,You would be astounded if you knew how many people in the world suffer from claustrophobia.,knew,know,astounded,would
 82,136399,380437,upper,True,"When you start to get in panic, sweat or felling that your heart is running you must be calm, because there is nothing occurring there, there are only thing occurring in your head, if I were you I would search for professional help, like doctors or medicine, because you can't let those things ruin your life.",were,be,start,
@@ -857,7 +815,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 82,85063,561470,upper,True,"If I spotted that an exit was closed, it would often be enough to trigger an attack.",spotted,spot,spotted,
 82,135654,587921,upper,True,If you tried to pass that maze with a therapist you would probably get used to it.%%,tried,try,used,would
 82,17659,603089,upper,True,"If I spotted that I had no chances to get out of the place quickly, it would often be enough to trigger an attack.",spotted,spot,spotted,
-82,137776,613521,upper,True,"If you are overwhelmed by it, you'll grow into a position where you could depend upon it.",overwhelmed,overwhelm,grow,'ll
 82,95654,616607,upper,True,"I think that sometimes new technology tries to create a necessity in the customers, so they feel obliged to buy something that , if it was not there, it wouldn't be missed.",was,be,think,
 82,125834,657781,upper,True,"Technology has affected and is affecting my life, because if there was no Internet I wouldn't be studying English.",was,be,affected,has
 82,125834,657781,upper,True,"To contact people from other states or countries would be very difficult, for example: I have a friend who is in Sergipe and if there was no Internet I wouldnt get to talk to him because I am In Rio de Janeiro and if I traveled there I would have to spend money.",was,be,contact,
@@ -867,7 +824,6 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 82,134944,774686,upper,True,"If I wanted to avoid it, I would not because my work involves the following: read and send mails, search information, and create the agenda to my boss.",wanted,want,involves,would
 82,117833,798306,upper,True,"Sometimes, when I'm lost in the city, if I'd had a smartphone, I would have been saved!",'d,would,saved,would
 82,89051,812358,upper,True,"I think if this technology was not available, I would feel bored.",was,be,think,
-82,119689,866323,upper,True,I believe that I may get a panic if it is lost.,lost,lose,believe,
 82,82211,877943,upper,True,"If I spotted that an exit was closed, it would often be enough to trigger an attack.",spotted,spot,spotted,
 82,110948,896516,upper,True,"Before I thought that If I won a laptop from my company I would become a slave, because I always would be in touch with my email and with easy access to work anytime and anywhere.",won,win,become,would
 82,106686,90831,upper,True,You said that if we were going to the 13th floor you would sign the resignation.,were,be,said,
@@ -875,23 +831,18 @@ topic,student_id,writing_id,group,is_cii,cor_sent,cor_if_head,cor_if_head_lemma,
 82,15956,963882,upper,True,"If all people knew how to use technology and its resources with balance and wisdom, surely everyone's life would be better and more enjoyable.",knew,know,knew,
 82,110380,977910,upper,True,"If I asked them a question, I would have to wait at least 15 days for a response and they would get my comments about it only one month later.",asked,ask,have,would
 82,93479,980638,upper,True,I can't imagine how my summer abroad could be if I didn't call them all the time or only twice each 3 days.,did,do,imagine,ca
-82,56144,992972,upper,True,"It can be the best company you could have and if it's used positively, it can be a limitless source of information and knowledge.",used,use,be,
 88,143562,11563,upper,True,Maybe if I had more free time I would not study more.,had,have,study,would
 88,121127,1322,upper,True,"If only I was ten years younger, that would be easier!",was,be,be,
 88,54079,549110,upper,True,"I say this because if I read individual words on a list I can recognize most of them but, to write a simple text like this probably I would consult a dictionary several times.",read,read,say,
 97,42407,1078955,upper,True,"If someone asked you which are the successful people you admire, who would you choose?",asked,ask,choose,would
 97,78206,1149271,upper,True,"However, if I had to pinpoint the trait that I admire the most about him, I would mention he is a human being: not perfect, nor different, nor out of this world.",had,have,mention,would
 97,57578,1184787,upper,True,"I would say, if you were not good at school, you would have more chances to become a prosperous entrepreneur.",were,be,say,would
-97,34796,149504,upper,True,"Here is my plan for what I will dedicate all my efforts to if I am elected: First, I will persuade the school committee to adjust our current financial aids program so that more finance support could be allocated to the students who come from the middle class families, the group which have always paid the highest rate of taxes but most severely suffered from the recent economic crisis.",elected,elect,is,
 97,46512,482607,upper,True,"First of all, if I were asked whether I'm a socialist or a capitalist, I would answer I'm a bit of both.",asked,ask,answer,would
-97,172594,50438,upper,True,"If I am elected for council president, I would say you have made an excellent choice, because from then on, we are going to make the difference.",elected,elect,say,would
 97,57924,54963,upper,True,Below are the profits you would recieve if I got elected to the president office.,elected,elect,are,
 97,32810,56948,upper,True,"Under the leadership, all of us could aim at one thing at one time and finally, made it even if we thought it would not be possible to be finished in the first place.",thought,think,aim,could
 97,147361,667671,upper,True,"If you were to ask me what makes her a successful person, I would say that it is only because she is persistent, passionate and competitive.",were,be,say,would
 97,134998,750224,upper,True,"I've volunteered at the city rest home and I've been engaged in the animal protection cause, because I believe it's our duty to watch over the needy, and provide them with what we would like to be provided if we were in their shoes.",were,be,volunteered,'ve
-97,91536,754463,upper,True,"If I am elected my first step will be to carry out a survey to know what you guys would like to change in our school, so be ready to make your voice heard: I will listen to it!",elected,elect,carry,will
 97,83534,830832,upper,True,These are only a few things I would change if only you voted for me.,voted,vote,are,
-97,133055,830931,upper,True,"Then, if you are born in a wealthy or a successful family, it could be easier too.",born,bear,born,are
 97,113689,870271,upper,True,"I admire all types of them, however if I were able to be someone, I would choose to be a history maker.",were,be,admire,
 97,123735,902854,upper,True,All of the athletes today would not be where they are today if it wasn't for their athletic ability.,was,be,be,
 97,123735,902854,upper,True,If they did not apply what they learned then they would not be as successful as they are today.,did,do,apply,did
