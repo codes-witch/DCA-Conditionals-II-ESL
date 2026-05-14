@@ -12,7 +12,7 @@
 
 This study used the version of EFCAMDAT cleaned and post-processed by \citep{oksus_alexopoulou_derkach_tsimpli_2025}, which contains 620{,}206 learner writings.
 However, it was unlikely for second conditionals to be elicited by most prompts; therefore, after qualitatively inspecting the task prompts, I decided on a subset of 20 tasks whose responses were most likely to contain the construction. 
-The selected units and corresponding writing topics are outlined in Table \ref{tab:topics} in Appendix \ref{app:topic}, totaling 33{,}496 student writings and 4{,}402{,}652 words stemming from CEFR levels A2 to C1.
+The selected units and corresponding writing topics are outlined in Table \ref{tab:topics} in Appendix \ref{app:topic}, totaling 33{,}496 student writings and 4{,}375{,}055 words stemming from CEFR levels A2 to C1.
 
 Finally, to ensure sufficiently large samples of both learner texts and type II conditional instances, the writings were grouped into two proficiency bands: learners at CEFR levels A2 and B1 (“lower”) and learners at levels B2 and C1 (“upper”).
 
@@ -36,21 +36,27 @@ For this study, I excluded sentences that expressed their conditional value thro
     \label{noncondif}
 \end{figure}
 
-Finally, conditionals that fit all requirements were compiled into a CSV file with the full sentence, the lemma filling the verbal slot in the protasis, and relevant metadata about the writing prompt and response, such as the \textit{Englishtown} level the task stemmed from and the topic ID. 
+Finally, conditionals that fit all requirements were compiled into a CSV file with the full sentence, the lemma filling the verbal slot in the protasis,\footnote{In the case of constructions with auxiliary verbs, I chose the lemma of the lexical verb as the slot filler in order to avoid artificially inflating the auxiliary's frequency and more accurately reflect lexical variability.} 
+and relevant metadata about the writing prompt and response, such as the \textit{Englishtown} level the task stemmed from and the topic ID. 
 
 \subsection{Calculating dispersion across tasks and levels}
 
 As a task-based corpus, the texts from EFCAMDAT are subject to task effects \citep{alexopoulouTaskEffect2017}. That is, the educational environment in which the texts are embedded shapes the grammar and lexis found in the corpus.
-When we draw conclusions from this kind of corpora, it is possible to run into some issues if the effect of task prompts is not taken into account and we instead assume all texts to be representative of the general production of learners at their corresponding proficiency, regardless of the task.  
+When drawing conclusions from this kind of corpora, it is possible to run into issues if one assumes all texts to be representative of the general production of learners at their corresponding proficiency, regardless of the task.  
 To observe the effect of task on the frequency of type II conditionals, I applied \citeauthor{griesDispersionsAdjustedFrequencies2008}'s \citeyearpar{griesDispersionsAdjustedFrequencies2008} $DP$ (deviation of proportions) measure and its normalized version $DP_{norm}$ for corpus parts of unequal size as presented in the correction by \cite{lijffijt_gries_correction}.
 The same process was also applied using the binary proficiency levels "upper" and "lower" as the corpus parts to ensure that the Distinctive Collexeme Analysis was carried out in comparable parts of the analyzed subcorpus.
 
 \subsection{Comparing tendencies across two L2 English proficiency levels}
 
+To investigate the differences in verb preferences in the if-clause of second conditionals, I used  Distinctive Collexeme Analysis (DCA), 
+an extension collostructional analysis which compares a collexeme's degree of attraction to one construction with its attraction to an alternative, similar construction \citep{griesExtendingCollostructionalAnalysis2004}.
+For the purposes of this study, however, instead of comparing two analogous but distinct constructions, we compare collexemes' association strength to the same constructional slot across two different proficiency levels.
 
-\subsubsection{Distinctive Collexeme Analysis}
+In recent years, \citeauthor{griesOverhaulingCollostructionalAnalysis2023} has devised an more computationally-efficient way of calculating association strengths in collostructional analysis by replacing contingency table-based computations with the residuals of the $\chi^2$-test, achieving extremely high correlations with the results of the traditional technique \citep{griesOverhaulingCollostructionalAnalysis2023}.
+Given its efficiency and relative simplicity, the present study adopts this updated approach.
 
-\subsubsection{Lexical variability}
+
+{Lexical variability}
 Entropy:
 
 \begin{quote}
