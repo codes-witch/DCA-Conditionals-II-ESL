@@ -1842,7 +1842,7 @@ per_topic_word_freqs$n_words &lt;- topic_nwords$n_words[
 per_topic_word_freqs &lt;- per_topic_word_freqs %&gt;%
   filter(cor_if_head_lemma %in% lemmas_threshold)
 
-print_dp_by_lemma &lt;- function(df) {
+print_lemma_stats_by_topic &lt;- function(df) {
 
   df %&gt;%
     group_by(cor_if_head_lemma) %&gt;%
@@ -1879,7 +1879,7 @@ print_dp_by_lemma &lt;- function(df) {
 
 }
 
-print_dp_by_lemma(per_topic_word_freqs) %&gt;%
+print_lemma_stats_by_topic(per_topic_word_freqs) %&gt;%
   filter(!(expected_n_lemma &lt; 1 &amp; n_lemma == 1)) %&gt;%
   View()</code></pre>
 </div>
