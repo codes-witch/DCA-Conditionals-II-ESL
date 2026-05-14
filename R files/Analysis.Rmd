@@ -26,22 +26,16 @@ cond_ii <- read.csv2("../Python output files/02_conditionals_ii.csv", sep=",")
 
 THRESHOLD_TOPIC_ID <- 73
 
-
-# Played with different boundaries between upper and lower levels. 
-# Splitting at topic 73 has two advantages and one major disadvantage:
-# Adv1: Most even split in the conditionals dataframe
-# Adv2: Coincides exactly with the threshold between B1 and B2 -> More interpretable?
-# Disadvantage: Many more tasks in upper than lower levels
-# -> might inherently cause more lexical variability. 
-# -> BUT, when running with a higher threshold (97, coinciding with the start of C1 and creating an exact 50-50 split in number of tasks), we obtain MUCH higher entropy for the higher levels.
-# Conclusion -> The higher variety of tasks in the upper levels is not the reason for its higher entropy. In fact, fewer, more advanced tasks result in higher entropy 
 cond_ii <- cond_ii %>%
   mutate(group = if_else(topic < THRESHOLD_TOPIC_ID, "lower", "upper"))
+
 
 # read in the word counts per topic
 topic_nwords <- fromJSON(paste(readLines("../Python output files/topic_word_count.json"), collapse="")) %>%
   enframe(name = "topic", value = "n_words")
+
 topic_nwords$n_words <- as.numeric(topic_nwords$n_words)
+
 
 level_nwords <- topic_nwords %>%
   mutate(level=if_else(topic < THRESHOLD_TOPIC_ID, "lower", "upper"))%>%
