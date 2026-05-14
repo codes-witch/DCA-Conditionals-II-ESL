@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,8 +12,8 @@ Theodora Alexopoulou, Marije Michel, Akira Murakami, and Detmar Meurers.
 \newblock \doi{https://doi.org/10.1111/lang.12232}.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/lang.12232}.
 
-\bibitem[Geertzen et~al.(2013)Geertzen, Alexopoulou, Korhonen, et~al.]{geertzen2013automatic}
-Jeroen Geertzen, Theodora Alexopoulou, Anna Korhonen, et~al.
+\bibitem[Geertzen et~al.(2013)Geertzen, Alexopoulou, and Korhonen]{geertzen2013automatic}
+Jeroen Geertzen, Theodora Alexopoulou, and Anna Korhonen.
 \newblock Automatic linguistic annotation of large scale {L2} databases: {The EF-Cambridge Open Language Database} {(EFCAMDAT)}.
 \newblock In \emph{Proceedings of the 31st Second Language Research Forum. Somerville, MA: Cascadilla Proceedings Project}, pages 240--254, 2013.
 
@@ -24,9 +24,23 @@ Stefan~Th. Gries.
 \newblock ISSN 1384-6655, 1569-9811.
 \newblock \doi{10.1075/ijcl.13.4.02gri}.
 
+\bibitem[Gries and Ellis(2015)]{griesStatisticalMeasuresUsageBased2015}
+Stefan~Th. Gries and Nick~C. Ellis.
+\newblock Statistical {{Measures}} for {{Usage-Based Linguistics}}.
+\newblock \emph{Language Learning}, 65\penalty0 (S1):\penalty0 228--255, 2015.
+\newblock ISSN 1467-9922.
+\newblock \doi{10.1111/lang.12119}.
+
+\bibitem[Gries and Stefanowitsch(2004)]{griesExtendingCollostructionalAnalysis2004}
+Stefan~Th. Gries and Anatol Stefanowitsch.
+\newblock Extending collostructional analysis: {{A}} corpus-based perspective on `alternations'.
+\newblock \emph{International Journal of Corpus Linguistics}, 9\penalty0 (1):\penalty0 97--129, April 2004.
+\newblock ISSN 1384-6655, 1569-9811.
+\newblock \doi{10.1075/ijcl.9.1.06gri}.
+
 \bibitem[Lijffijt and Gries(2012)]{lijffijt_gries_correction}
 Jefrey Lijffijt and Stefan~Th. Gries.
-\newblock Correction to stefan th. gries' “dispersions and adjusted frequencies in corpora”.
+\newblock Correction to {Stefan Th. Gries'} “{D}ispersions and adjusted frequencies in corpora”.
 \newblock \emph{International Journal of Corpus Linguistics}, 17\penalty0 (1):\penalty0 147--149, 2012.
 
 \bibitem[Qi et~al.(2020)Qi, Zhang, Zhang, Bolton, and Manning]{qi2020stanza}
@@ -41,10 +55,17 @@ Ute Römer-Barron.
 \newblock \doi{https://doi.org/10.1002/tesq.70140}.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/tesq.70140}.
 
+\bibitem[Stefanowitsch and Gries(2003)]{stefanowitschCollostructionsInvestigatingInteraction2003}
+Anatol Stefanowitsch and Stefan~Th. Gries.
+\newblock Collostructions: {{Investigating}} the interaction of words and constructions.
+\newblock \emph{International Journal of Corpus Linguistics}, 8\penalty0 (2):\penalty0 209--243, December 2003.
+\newblock ISSN 1384-6655, 1569-9811.
+\newblock \doi{10.1075/ijcl.8.2.03ste}.
+
 \bibitem[Öksüz et~al.(2025)Öksüz, Alexopoulou, Derkach, and Tsimpli]{oksus_alexopoulou_derkach_tsimpli_2025}
 Doğuş Öksüz, Theodora Alexopoulou, Kateryna Derkach, and Ianthi~Maria Tsimpli.
 \newblock The influence of {L1} typology on the acquisition of the {L2 English} article: {A} large-scale corpus study.
-\newblock 2025.
+\newblock \emph{Second Language Research}, 2025.
 \newblock \doi{10.17863/CAM.122590}.
 \newblock URL \url{https://www.repository.cam.ac.uk/handle/1810/391460}.
 
