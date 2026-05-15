@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1778786938 "main.aux" "main.bbl" "main" 1778786959
+["bibtex main"] 1778844950 "main.aux" "main.bbl" "main" 1778844951
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "literature.bib" 1778786112 13322 a515f8b41066ccc6be72b259bc59e993 ""
-  "main.aux" 1778786959 3890 661d387e7e193ece11e27f0031923b17 "pdflatex"
+  "literature.bib" 1778844205 13322 a515f8b41066ccc6be72b259bc59e993 ""
+  "main.aux" 1778844950 4688 26073ec4e9c17543d5ee89ba5726bb30 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1778786958 "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" "main.pdf" "main" 1778786959
+["pdflatex"] 1778844950 "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" "main.pdf" "main" 1778844951
   "/etc/texmf/web2c/texmf.cnf" 1729970445 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" 1778704509 1664 eddc29a64a3d9fb15ab9b7f50f44c6ca ""
+  "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" 1778844949 1748 4c80dda93e46049095baa53c1120412c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch1_co4ru4.enc" 1622404567 4020 6d0463761024b2342fcb3808d5b73050 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc" 1622404567 3148 2f2a67069201f50d16b6416a4c86247d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -196,18 +196,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1729972052 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769751295 2799574 9aeb93566c29e08acd37552acb369f91 ""
-  "content/2-introduction.tex" 1778779773 1543 ed9ce91ae81c022f4bcbff0a1229bdc2 ""
-  "content/3-methods.tex" 1778786958 7548 d71c0117046de3bb04e53b6902dfbba0 ""
-  "content/4-resuts.tex" 1778672970 485 6705f325031e767d7168b382ee6211cb ""
+  "content/2-introduction.tex" 1778788912 1597 ccefb1859367d6955688a613c35fafbc ""
+  "content/3-methods.tex" 1778842083 7547 90bf0d98e4290a7ea36967fb37706756 ""
+  "content/4-resuts.tex" 1778844858 1480 103a9074a78654cb7c099f4e9305cf73 ""
   "content/5-discussion.tex" 1778770870 544 1b1829d086673eb8468af00048af1609 ""
   "content/6-appendix.tex" 1778773872 325 07d84e690cd9e8238b4c3d6bcc307c55 ""
+  "content/tables/dispersion.tex" 1778843909 568 f1332208d9122532a552c8505b4140bd ""
   "content/tables/topics.tex" 1778604133 1813 ac4f211771227a8c30ce27d7a2a72e57 ""
   "general.tex" 1778690224 3682 d09e76f7070dbf2e4e6756a9123c76a3 ""
   "images/Residuals.png" 1778779751 48007 89836fe31a820ae560088454611497ae ""
   "images/noncond_if.png" 1778671345 67658 d2947a30353411351ef034ac8f9a0f79 ""
-  "main.aux" 1778786959 3890 661d387e7e193ece11e27f0031923b17 "pdflatex"
-  "main.bbl" 1778786938 4971 f7fe518c44430a80064322351a9fe22e "bibtex main"
-  "main.tex" 1778704509 1664 eddc29a64a3d9fb15ab9b7f50f44c6ca ""
+  "main.aux" 1778844950 4688 26073ec4e9c17543d5ee89ba5726bb30 "pdflatex"
+  "main.bbl" 1778844950 4971 f7fe518c44430a80064322351a9fe22e "bibtex main"
+  "main.tex" 1778844949 1748 4c80dda93e46049095baa53c1120412c ""
   (generated)
   "main.aux"
   "main.log"
