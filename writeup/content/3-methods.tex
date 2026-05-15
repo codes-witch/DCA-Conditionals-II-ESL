@@ -25,9 +25,17 @@ the goal is not to asses the grammatical proficiency of students, but rather to 
 This gives us the ability to use the corrected texts that are present in the corpus, ensuring more robust results of automatic Natural Language Processing (NLP) tools.\footnote{However, given previous robustness studies of NLP tools on L2 English \citep{geertzen2013automatic}, similar results would be expected when running the analysis on the original learner texts.}
 
 The parsed documents were scanned for type II conditionals using both Universal Dependency (UD) relations and part-of-speech (POS) information. 
-Only sentences containing the word "if" as a conditional marker (headed by an \texttt{advcl} UD tag) and not as an interrogative marker headed by a \texttt{ccomp} UD tag, as in Figure \ref{noncondif}.
+Only sentences containing the word "if" as a conditional marker (headed by an \texttt{advcl} UD tag, as in Figure \ref{condif}) and not as an interrogative marker headed by a \texttt{ccomp} UD tag, as in Figure \ref{noncondif}.
 Then, the script ensures that the verb in the protasis is in the past tense and the apodosis contains a valid modal verb, thus filtering out other types of conditionals. 
 For this study, I excluded sentences that expressed their conditional value through means other than the grammatical marker "if" (e.g. subject-auxiliary inversion) and sentences containing a modal verb in the protasis (e.g. \textit{If I could go anywhere in the world, I'd go to China.}).
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/cond_if.png}
+    \caption{UD parse of a sentence with a conditional \textit{if}}
+    \label{fig:condif}
+\end{figure}
+
 
 \begin{figure}[htbp]
     \centering
