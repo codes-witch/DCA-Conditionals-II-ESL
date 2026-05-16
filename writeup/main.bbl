@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{15}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,12 @@ Theodora Alexopoulou, Marije Michel, Akira Murakami, and Detmar Meurers.
 \newblock \emph{Language Learning}, 67\penalty0 (S1):\penalty0 180--208, 2017.
 \newblock \doi{https://doi.org/10.1111/lang.12232}.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/lang.12232}.
+
+\bibitem[Ellis(2012)]{Ellis_2012}
+Nick~C. Ellis.
+\newblock Formulaic language and second language acquisition: Zipf and the phrasal teddy bear.
+\newblock \emph{Annual Review of Applied Linguistics}, 32:\penalty0 17–44, 2012.
+\newblock \doi{10.1017/S0267190512000025}.
 
 \bibitem[Geertzen et~al.(2013)Geertzen, Alexopoulou, and Korhonen]{geertzen2013automatic}
 Jeroen Geertzen, Theodora Alexopoulou, and Anna Korhonen.
@@ -55,6 +61,11 @@ Stefan~Th. Gries and Stefanie Wulff.
 Jefrey Lijffijt and Stefan~Th. Gries.
 \newblock Correction to {Stefan Th. Gries'} “{D}ispersions and adjusted frequencies in corpora”.
 \newblock \emph{International Journal of Corpus Linguistics}, 17\penalty0 (1):\penalty0 147--149, 2012.
+
+\bibitem[O’Keeffe and Mark(2017)]{o2017english}
+Anne O’Keeffe and Geraldine Mark.
+\newblock The english grammar profile of learner competence: Methodology and key findings.
+\newblock \emph{International Journal of Corpus Linguistics}, 22\penalty0 (4):\penalty0 457--489, 2017.
 
 \bibitem[Qi et~al.(2020)Qi, Zhang, Zhang, Bolton, and Manning]{qi2020stanza}
 Peng Qi, Yuhao Zhang, Yuhui Zhang, Jason Bolton, and Christopher~D Manning.
