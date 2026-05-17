@@ -7,27 +7,27 @@
 
  The EF-Cambridge Open Language Database (EFCAMDAT), first presented by \citet{geertzen2013automatic}, is a large-scale learner corpus containing writings from the online English school \textit{Englishtown}.
  In their courses, each level corresponds to eight pedagogical units, after each of which students receive a prompt for a writing task that they must complete in order to advance. 
- The corpus comprises responses to these tasks in their original and corrected forms, along with metainformation about the text and the author (learner ID, country of origin, grade given by a teacher, etc.).
- An advantage of the EFCAMDAT, beyond being generally available for researchers at all stages, is the fact that \textit{Englishtown} levels are aligned with the Common European Framework of Reference (CEFR), making it possible to do a broad range of descriptive analyses of L2 English at globally understood proficency levels.\footnote{The availability of large-scale, CEFR-aligned corpora is more limited than one might expect. The most well-known English learner corpus is the Cambridge Learner Corpus (CLC), whose access is highly restricted.}
+ The corpus comprises responses to these tasks in their original and corrected forms, along with metainformation about the text and the author.
+ An advantage of the EFCAMDAT, beyond being generally available for researchers, is the fact that \textit{Englishtown} levels are aligned with the Common European Framework of Reference (CEFR), making a broad range of descriptive analyses possible at globally understood proficency levels.\footnote{The availability of large-scale, CEFR-aligned corpora is more limited than one might expect. The most well-known English learner corpus is the Cambridge Learner Corpus (CLC), whose access is highly restricted.}
 
 This study used the version of EFCAMDAT cleaned and post-processed by \cite{oksus_alexopoulou_derkach_tsimpli_2025}, which contains 620{,}206 learner writings.
-However, it was unlikely for second conditionals to be elicited by most prompts; therefore, after qualitatively inspecting the task prompts, I decided on a subset of 20 tasks whose responses were most likely to contain the construction. 
+However, it was unlikely for CIIs to be elicited by most prompts; therefore, after qualitatively inspecting the task prompts, I decided on a subset of 20 tasks whose responses were most likely to contain the construction. 
 The selected units and corresponding writing topics are outlined in Table \ref{tab:topics} in Appendix \ref{app:topic}, totaling 33{,}496 student writings and 4{,}375{,}055 words stemming from CEFR levels A2 to C1.
 
-Finally, to ensure sufficiently large samples of both learner texts and type II conditional instances, the writings were grouped into two proficiency bands: learners at CEFR levels A2 and B1 (“lower”) and learners at levels B2 and C1 (“upper”).
+Finally, to ensure sufficiently large samples of both learner texts and CII instances, the writings were grouped into two proficiency bands: learners at CEFR levels A2 and B1 (“lower”) and learners at levels B2 and C1 (“upper”).
 
 
 \subsection{Extracting type II conditionals}
 
 All corrected learner writings in the subcorpus were automatically parsed using Stanza \citep{qi2020stanza}. 
 Using the corrected texts instead of the original ones is justified by the fact that accuracy does not factor into this study: 
-the goal is not to asses the grammatical proficiency of students, but rather to explore their lexical preferences is a specific slot in different levels.
-This gives us the ability to use the corrected texts that are present in the corpus, ensuring more robust results of automatic Natural Language Processing (NLP) tools.\footnote{However, given previous robustness studies of NLP tools on L2 English \citep{geertzen2013automatic}, similar results would be expected when running the analysis on the original learner texts.}
+the goal is not to assess grammatical proficiency, but rather to explore differences in lexical preferences across levels.
+This allows us to use the corrected versions of the texts, ensuring more robust output from NLP tools.\footnote{However, given previous robustness studies of NLP tools on L2 English \citep{geertzen2013automatic}, similar results would be expected when running the analysis on the original learner texts.}
 
-The parsed documents were scanned for type II conditionals using both Universal Dependency (UD) relations and part-of-speech (POS) information. 
-Only sentences containing the word "if" as a conditional marker (headed by an \texttt{advcl} UD tag, as in Figure \ref{fig:condif}) and not as an interrogative marker headed by a \texttt{ccomp} UD tag, as in Figure \ref{noncondif}.
-Then, the script ensures that the verb in the protasis is in the past tense and the apodosis contains a valid modal verb, thus filtering out other types of conditionals. 
-For this study, I excluded sentences that expressed their conditional value through means other than the grammatical marker "if" (e.g. subject-auxiliary inversion) and sentences containing a modal verb in the protasis (e.g. \textit{If I could go anywhere in the world, I'd go to China.}).
+The parsed documents were scanned for CII using both Universal Dependency (UD) relations and part-of-speech (POS) information. 
+Only sentences containing the word "if" as a conditional marker (headed by an \texttt{advcl} UD tag, as in Figure \ref{fig:condif}) were taken into account, excluding interrogative markers headed by a \texttt{ccomp} UD tag, as in Figure \ref{noncondif}.
+Then, a Python script ensures that the verb in the if-clause is in the past tense and the main clause contains a modal verb, thus filtering out other types of conditionals. 
+For this study, I excluded sentences that expressed their conditional value through means other than the grammatical marker "if" (e.g. subject-auxiliary inversion) and sentences containing a modal verb in the protasis (e.g. \textit{If I could go anywhere in the world, ...}).
 
 \begin{figure}[htbp]
     \centering
@@ -51,12 +51,12 @@ and relevant metadata about the writing prompt and response, such as the \textit
 
 As a task-based corpus, the texts from EFCAMDAT are subject to task effects \citep{alexopoulouTaskEffect2017}. That is, the educational environment in which the texts are embedded shapes the grammar and lexis found in the corpus.
 When drawing conclusions from this kind of corpora, it is possible to run into issues if one assumes all texts to be representative of the general production of learners at their corresponding proficiency, regardless of the task.  
-To observe the effect of task on the frequency of type II conditionals, I applied \citeauthor{griesDispersionsAdjustedFrequencies2008}'s \citeyearpar{griesDispersionsAdjustedFrequencies2008} $DP$ (deviation of proportions) measure and its normalized version $DP_{norm}$ for corpus parts of unequal size as presented in the correction by \cite{lijffijt_gries_correction}.
+To observe the effect of task on the frequency of CIIs, I applied \citeauthor{griesDispersionsAdjustedFrequencies2008}'s \citeyearpar{griesDispersionsAdjustedFrequencies2008} $DP$ (deviation of proportions) measure and its normalized version $DP_{norm}$ for corpus parts of unequal size as presented in the correction by \cite{lijffijt_gries_correction}.
 The same process was also applied using the binary proficiency levels "upper" and "lower" as the corpus parts to ensure that the Distinctive Collexeme Analysis was carried out in comparable parts of the analyzed subcorpus.
 
 \subsection{Comparing tendencies across two L2 English proficiency levels}
 
-To investigate the differences in verb preferences in the if-clause of second conditionals, I used  Distinctive Collexeme Analysis (DCA), 
+To investigate the differences in verb preferences in the if-clause of CIIs, I used  Distinctive Collexeme Analysis (DCA), 
 an extension collostructional analysis which compares a collexeme's degree of attraction to one construction with its attraction to an alternative, similar construction \citep{griesExtendingCollostructionalAnalysis2004}.
 For the purposes of this study, however, instead of comparing two analogous but distinct constructions, we compare collexemes' association strength to the same constructional slot across two different proficiency levels.
 
@@ -66,4 +66,4 @@ Given its efficiency and relative simplicity, the present study adopts this upda
 To quantify the lexical diversity of verbs filling the slot under discussion, I opted for an entropy-based approach. 
 Information-theoretic entropy ($H$) measures the uncertainty in a probability distribution: the more evenly distributed, the higher the entropy.
 When normalized to a 0-1 scale ($H_{rel}$), entropy values become comparable across distributions with different numbers of categories \citep{griesStatisticalMeasuresUsageBased2015}.
-Entropy-based measures have been used in SLA corpus research to investigate L2 development (for example, see \cite{kunEntropy2021} for an analysis of entropy and linguistic complexity done on the EFCAMDAT) and was thus deemed an appropriate measure for the purpose of comparing the breadth and distribution of verb lemmas in the relevant position. 
+Entropy-based measures have been used in SLA corpus research to investigate L2 development (for example, see \cite{kunEntropy2021} for an analysis of entropy and complexity done on the EFCAMDAT) and was thus deemed an appropriate measure for the purpose of comparing the breadth and distribution of verb lemmas in the relevant position. 
