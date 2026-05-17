@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1779014585 "main.aux" "main.bbl" "main" 1779014586
+["bibtex main"] 1779015054 "main.aux" "main.bbl" "main" 1779015795
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "literature.bib" 1778954686 14881 4417903d177f7be8d9106a803e02d09b ""
-  "main.aux" 1779014586 5243 9b7b791cec8d8bc20e642381dbc1262f "pdflatex"
+  "main.aux" 1779015795 5247 347da185eaa110f1541412748c5fff51 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1779014585 "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" "main.pdf" "main" 1779014586
+["pdflatex"] 1779015794 "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" "main.pdf" "main" 1779015795
   "/etc/texmf/web2c/texmf.cnf" 1729970445 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/daniela/Documents/Corpus Linguistics/DCA Conditionals II ESL/writeup/main.tex" 1778932838 1485 16a7ec057f4bace76e7e88f6c025abf9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc" 1622404567 3148 2f2a67069201f50d16b6416a4c86247d ""
@@ -192,9 +192,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1729972052 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769751295 2799574 9aeb93566c29e08acd37552acb369f91 ""
   "content/2-introduction.tex" 1778951115 2224 368b33f688ba86a8080f05161be8e4ec ""
-  "content/3-methods.tex" 1778953878 7781 77c1cb5c7d7ee8acc798cfa6c1b4d81d ""
+  "content/3-methods.tex" 1779015749 7781 77c1cb5c7d7ee8acc798cfa6c1b4d81d ""
   "content/4-resuts.tex" 1779014585 3264 4b03fd71497148f64821a28da8463960 ""
-  "content/5-discussion.tex" 1779014560 8685 c2fbf7ddb9acade83c65c6dedfb3beaf ""
+  "content/5-discussion.tex" 1779015793 9990 42419e17523625d351e1e1d2fda5d50f ""
   "content/6-appendix.tex" 1778773872 325 07d84e690cd9e8238b4c3d6bcc307c55 ""
   "content/tables/dispersion.tex" 1778843909 568 f1332208d9122532a552c8505b4140bd ""
   "content/tables/entropy.tex" 1778862173 361 0335aeb36695ce9797e62717f1457ba5 ""
@@ -203,8 +203,8 @@
   "images/Residuals.png" 1778779751 48007 89836fe31a820ae560088454611497ae ""
   "images/cond_if.png" 1778846330 45989 58c3314a725d18cdd8b4b7aa22bebd05 ""
   "images/noncond_if.png" 1778671345 67658 d2947a30353411351ef034ac8f9a0f79 ""
-  "main.aux" 1779014586 5243 9b7b791cec8d8bc20e642381dbc1262f "pdflatex"
-  "main.bbl" 1779014585 6327 7024e3df2dea90d5cdc6379d1ba4347d "bibtex main"
+  "main.aux" 1779015795 5247 347da185eaa110f1541412748c5fff51 "pdflatex"
+  "main.bbl" 1779015054 6327 7024e3df2dea90d5cdc6379d1ba4347d "bibtex main"
   "main.tex" 1778932838 1485 16a7ec057f4bace76e7e88f6c025abf9 ""
   (generated)
   "main.aux"
