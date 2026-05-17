@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,16 @@ Theodora Alexopoulou, Marije Michel, Akira Murakami, and Detmar Meurers.
 \newblock \emph{Language Learning}, 67\penalty0 (S1):\penalty0 180--208, 2017.
 \newblock \doi{https://doi.org/10.1111/lang.12232}.
 \newblock URL \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/lang.12232}.
+
+\bibitem[Capel(2010)]{capel2010a1}
+Annette Capel.
+\newblock A1--b2 vocabulary: insights and issues arising from the english profile wordlists project.
+\newblock \emph{English Profile Journal}, 1:\penalty0 e3, 2010.
+
+\bibitem[Capel(2012)]{capel2012completing}
+Annette Capel.
+\newblock Completing the english vocabulary profile: C1 and c2 vocabulary.
+\newblock \emph{English Profile Journal}, 3:\penalty0 e1, 2012.
 
 \bibitem[Ellis(2012)]{Ellis_2012}
 Nick~C. Ellis.
