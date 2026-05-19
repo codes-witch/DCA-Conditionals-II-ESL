@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: literature.bib
-You've used 17 entries,
+Warning--empty journal in durrantWhatExtentNative2009
+You've used 21 entries,
             2773 wiz_defined-function locations,
-            724 strings with 8974 characters,
-and the built_in function-call counts, 7978 in all, are:
-= -- 765
-> -- 363
-< -- 15
-+ -- 125
-- -- 108
-* -- 643
-:= -- 1225
-add.period$ -- 72
-call.type$ -- 17
-change.case$ -- 87
-chr.to.int$ -- 17
-cite$ -- 34
-duplicate$ -- 366
-empty$ -- 680
-format.name$ -- 139
-if$ -- 1687
+            753 strings with 9707 characters,
+and the built_in function-call counts, 9675 in all, are:
+= -- 924
+> -- 443
+< -- 18
++ -- 153
+- -- 132
+* -- 780
+:= -- 1489
+add.period$ -- 86
+call.type$ -- 21
+change.case$ -- 107
+chr.to.int$ -- 21
+cite$ -- 43
+duplicate$ -- 446
+empty$ -- 827
+format.name$ -- 169
+if$ -- 2038
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 17
-newline$ -- 114
-num.names$ -- 68
-pop$ -- 137
+missing$ -- 21
+newline$ -- 136
+num.names$ -- 84
+pop$ -- 171
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 86
 quote$ -- 0
-skip$ -- 278
+skip$ -- 336
 stack$ -- 0
-substring$ -- 372
-swap$ -- 41
+substring$ -- 443
+swap$ -- 45
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 187
-warning$ -- 0
-while$ -- 77
+type$ -- 231
+warning$ -- 1
+while$ -- 95
 width$ -- 0
-write$ -- 269
+write$ -- 324
+(There was 1 warning)

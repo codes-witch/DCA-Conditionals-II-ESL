@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,13 +14,20 @@ Theodora Alexopoulou, Marije Michel, Akira Murakami, and Detmar Meurers.
 
 \bibitem[Capel(2010)]{capel2010a1}
 Annette Capel.
-\newblock A1--b2 vocabulary: insights and issues arising from the english profile wordlists project.
+\newblock {A1--B2} vocabulary: insights and issues arising from the {English Profile Wordlists} project.
 \newblock \emph{English Profile Journal}, 1:\penalty0 e3, 2010.
 
 \bibitem[Capel(2012)]{capel2012completing}
 Annette Capel.
-\newblock Completing the english vocabulary profile: C1 and c2 vocabulary.
+\newblock Completing the {English} vocabulary profile: {C1} and {C2} vocabulary.
 \newblock \emph{English Profile Journal}, 3:\penalty0 e1, 2012.
+
+\bibitem[Durrant and Schmitt(2009)]{durrantWhatExtentNative2009}
+Philip Durrant and Norbert Schmitt.
+\newblock To what extent do native and non-native writers make use of collocations?
+\newblock 47\penalty0 (2):\penalty0 157--177, June 2009.
+\newblock ISSN 1613-4141.
+\newblock \doi{10.1515/iral.2009.007}.
 
 \bibitem[Ellis(2012)]{Ellis_2012}
 Nick~C. Ellis.
@@ -32,6 +39,11 @@ Nick~C. Ellis.
 Jeroen Geertzen, Theodora Alexopoulou, and Anna Korhonen.
 \newblock Automatic linguistic annotation of large scale {L2} databases: {The EF-Cambridge Open Language Database} {(EFCAMDAT)}.
 \newblock In \emph{Proceedings of the 31st Second Language Research Forum. Somerville, MA: Cascadilla Proceedings Project}, pages 240--254, 2013.
+
+\bibitem[Granger and Bestgen(2014)]{granger2014use}
+Sylviane Granger and Yves Bestgen.
+\newblock The use of collocations by intermediate vs. advanced non-native writers: A bigram-based study.
+\newblock \emph{International Review of Applied Linguistics in Language Teaching}, 52\penalty0 (3):\penalty0 229--252, 2014.
 
 \bibitem[Gries(2008)]{griesDispersionsAdjustedFrequencies2008}
 Stefan~Th. Gries.
@@ -61,20 +73,30 @@ Stefan~Th. Gries and Anatol Stefanowitsch.
 \newblock ISSN 1384-6655, 1569-9811.
 \newblock \doi{10.1075/ijcl.9.1.06gri}.
 
-\bibitem[Gries and Wulff(2021)]{Gries_Wulff_2021}
-Stefan~Th. Gries and Stefanie Wulff.
-\newblock Examining individual variation in learner production data: A few programmatic pointers for corpus-based analyses using the example of adverbial clause ordering.
-\newblock \emph{Applied Psycholinguistics}, 42\penalty0 (2):\penalty0 279–299, 2021.
-\newblock \doi{10.1017/S014271642000048X}.
+\bibitem[Kang(2007)]{kang2007difficult}
+Seung-Man Kang.
+\newblock Why is it difficult to teach english subjunctive?
+\newblock \emph{The Jungang Journal of English Language and Literature}, 49\penalty0 (1):\penalty0 21--35, 2007.
+
+\bibitem[Ko(2013)]{ko2013study}
+Wukyung Ko.
+\newblock A study on the acquisition of if-conditionals by korean-\& spanish-speaking learners of english.
+\newblock \emph{English teaching}, 68\penalty0 (1), 2013.
 
 \bibitem[Lijffijt and Gries(2012)]{lijffijt_gries_correction}
 Jefrey Lijffijt and Stefan~Th. Gries.
 \newblock Correction to {Stefan Th. Gries'} “{D}ispersions and adjusted frequencies in corpora”.
 \newblock \emph{International Journal of Corpus Linguistics}, 17\penalty0 (1):\penalty0 147--149, 2012.
 
+\bibitem[McEnery et~al.(2019)McEnery, Brezina, Gablasova, and Banerjee]{McEnery_Brezina_Gablasova_Banerjee_2019}
+Tony McEnery, Vaclav Brezina, Dana Gablasova, and Jayanti Banerjee.
+\newblock Corpus linguistics, learner corpora, and sla: Employing technology to analyze language use.
+\newblock \emph{Annual Review of Applied Linguistics}, 39:\penalty0 74–92, 2019.
+\newblock \doi{10.1017/S0267190519000096}.
+
 \bibitem[O’Keeffe and Mark(2017)]{o2017english}
 Anne O’Keeffe and Geraldine Mark.
-\newblock The english grammar profile of learner competence: Methodology and key findings.
+\newblock The {English Grammar Profile} of learner competence: Methodology and key findings.
 \newblock \emph{International Journal of Corpus Linguistics}, 22\penalty0 (4):\penalty0 457--489, 2017.
 
 \bibitem[Qi et~al.(2020)Qi, Zhang, Zhang, Bolton, and Manning]{qi2020stanza}
@@ -98,7 +120,7 @@ Anatol Stefanowitsch and Stefan~Th. Gries.
 
 \bibitem[Sun and Wang(2021)]{kunEntropy2021}
 Kun Sun and Rong Wang.
-\newblock Using the relative entropy of linguistic complexity to assess l2 language proficiency development.
+\newblock Using the relative entropy of linguistic complexity to assess {L2} language proficiency development.
 \newblock \emph{Entropy}, 23\penalty0 (8), 2021.
 \newblock ISSN 1099-4300.
 \newblock \doi{10.3390/e23081080}.
