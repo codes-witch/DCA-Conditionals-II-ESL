@@ -11,22 +11,23 @@
  An advantage of the EFCAMDAT, beyond being generally available for researchers, is the fact that \textit{Englishtown} levels are aligned with the Common European Framework of Reference (CEFR), making a broad range of descriptive analyses possible at globally understood proficiency levels.\footnote{The availability of large-scale, CEFR-aligned corpora is more limited than one might expect. The most well-known English learner corpus is the Cambridge Learner Corpus (CLC), whose access is highly restricted.}
 
 This study used the version of EFCAMDAT cleaned and post-processed by \cite{oksus_alexopoulou_derkach_tsimpli_2025}, which contains 620{,}206 learner writings.
-However, it was unlikely for CIIs to be elicited by most prompts; therefore, after qualitatively inspecting the task prompts, I decided on a subset of 20 tasks whose responses were most likely to contain the construction. 
+Since it was deemed unlikely for CIIs to be elicited by most tasks, after qualitatively inspecting the prompts, I decided on a subset of 20 tasks whose responses were most likely to contain the construction. 
 The selected units and corresponding writing topics are outlined in Table \ref{tab:topics} in Appendix \ref{app:topic}, totaling 33{,}496 student writings and 4{,}375{,}055 words stemming from CEFR levels A2 to C1.
 
-Finally, to ensure sufficiently large samples of both learner texts and CII instances, the writings were grouped into two proficiency bands: learners at CEFR levels A2 and B1 (“lower”) and learners at levels B2 and C1 (“upper”).
+Finally, to ensure sufficiently large samples of both learner texts and CII instances, the writings were grouped into two proficiency bands: 
+learners at CEFR levels A2 and B1 (“lower”) and learners at levels B2 and C1 (“upper”).
 
 
 \subsection{Extracting type II conditionals}
 
 All corrected learner writings in the subcorpus were automatically parsed using Stanza \citep{qi2020stanza}. 
-Using the corrected texts instead of the original ones is justified by the fact that accuracy does not factor into this study: 
+The use of the corrected texts instead of the original ones is justified by the fact that accuracy does not factor into this study: 
 the goal is not to assess grammatical proficiency, but rather to explore differences in lexical preferences across levels.
 This allows us to use the corrected versions of the texts, ensuring more robust output from NLP tools.\footnote{However, given previous robustness studies of NLP tools on L2 English \citep{geertzen2013automatic}, similar results would be expected when running the analysis on the original learner texts.}
 
 The parsed documents were scanned for CII using both Universal Dependency (UD) relations and part-of-speech (POS) information. 
-Only sentences containing the word "if" as a conditional marker (headed by an \texttt{advcl} UD tag, as in Figure \ref{fig:condif}) were taken into account, excluding interrogative markers headed by a \texttt{ccomp} UD tag, as in Figure \ref{noncondif}.
-Then, a Python script ensures that the verb in the if-clause is in the past tense and the main clause contains a modal verb, thus filtering out other types of conditionals. 
+Only sentences containing the word \textit{if} as a conditional marker (headed by an \texttt{advcl} UD tag, as in Figure \ref{fig:condif}) were taken into account, excluding interrogative markers headed by a \texttt{ccomp} UD tag, as in Figure \ref{noncondif}.
+Then, a Python script ensured that the verb in the if-clause was in the past tense and the main clause contained a modal verb, thus filtering out other types of conditionals. 
 For this study, I excluded sentences that expressed their conditional value through means other than the grammatical marker "if" (e.g. subject-auxiliary inversion) and sentences containing a modal verb in the protasis (e.g. \textit{If I could go anywhere in the world, ...}).
 
 \begin{figure}[htbp]
@@ -44,7 +45,7 @@ For this study, I excluded sentences that expressed their conditional value thro
     \label{noncondif}
 \end{figure}
 
-Finally, conditionals that fit all requirements were compiled into a CSV file with the full sentence, the lemma filling the verbal slot in the protasis,\footnote{In the case of constructions with auxiliary verbs, I chose the lemma of the lexical verb as the slot filler in order to avoid artificially inflating the auxiliary's frequency and more accurately reflect lexical variability.} 
+Finally, conditionals that fit all requirements were compiled into a CSV file with the full sentence, the lemma filling the verbal slot in the protasis,\footnote{In the case of constructions with auxiliary verbs, I chose the lemma of the lexical verb as the slot filler in order to avoid artificially inflating the auxiliary's frequency and to more accurately reflect lexical variability.} 
 and relevant metadata about the writing prompt and response, such as the \textit{Englishtown} level the task stemmed from and the topic ID. 
 
 \subsection{Calculating dispersion across tasks and levels}
@@ -60,7 +61,7 @@ To investigate the differences in verb preferences in the if-clause of CIIs, I u
 an extension collostructional analysis which compares a collexeme's degree of attraction to one construction with its attraction to an alternative, similar construction \citep{griesExtendingCollostructionalAnalysis2004}.
 For the purposes of this study, however, instead of comparing two analogous but distinct constructions, we compare collexemes' association strength to the same constructional slot across two different proficiency levels.
 
-In recent years, \citeauthor{griesOverhaulingCollostructionalAnalysis2023} has devised a more computationally-efficient way of calculating association strengths in collostructional analysis by replacing contingency table-based computations with the residuals of the $\chi^2$-test, achieving extremely high correlations with the results of the traditional technique \citep{griesOverhaulingCollostructionalAnalysis2023}.
+In recent years, \citeauthor{griesOverhaulingCollostructionalAnalysis2023} has devised a more computationally-efficient way of calculating association strengths in collostructional analysis by replacing contingency table-based computations with the residuals of the $\chi^2$-test, achieving extremely high correlations with the results of the traditional method \citep{griesOverhaulingCollostructionalAnalysis2023}.
 Given its efficiency and relative simplicity, the present study adopts this updated approach.
 
 To quantify the lexical diversity of verbs filling the slot under discussion, I opted for an entropy-based approach. 
