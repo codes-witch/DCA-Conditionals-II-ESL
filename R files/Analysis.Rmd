@@ -142,6 +142,8 @@ H_upper <- -sum(p_upper * log2(p_upper))
 Hrel_lower <- H_lower/ log2(length(p_lower))
 Hrel_upper <- H_upper /log2(length(p_upper))
 
+print(paste("Entropy lower levels", H_lower))
+print(paste("Entropy higher levels", H_upper))
 
 print(paste("Normalized entropy lower levels:", Hrel_lower))
 print(paste("Normalized entropy higher levels:", Hrel_upper))
@@ -198,6 +200,7 @@ print("Topics as parts")
 print_dp_and_norm(per_topic_freqs)
 print("Lower/Upper level as parts")
 print_dp_and_norm(per_group_freqs)
+
 ```
 
 ### Observing whether some verbs are overrepresented due to specific tasks
@@ -213,7 +216,8 @@ per_topic_word_freqs$n_words <- topic_nwords$n_words[
 ]
 
 per_topic_word_freqs <- per_topic_word_freqs %>%
-  filter(cor_if_head_lemma %in% lemmas_threshold)
+  filter(cor_if_head_lemma %in% lemmas_threshold) %>%
+  filter(as.numeric(as.character(topic)) >= THRESHOLD_TOPIC_ID)
 
 print_lemma_stats_by_topic <- function(df) {
 
@@ -256,4 +260,39 @@ print_lemma_stats_by_topic(per_topic_word_freqs) %>%
   filter(!(expected_n_lemma < 1 & n_lemma == 1)) %>%
   View()
 ```
+
+### Visualizing lemma frequency per group
+```{r}
+library(ggrepel)
+
+per_lemma_freqs <- cond_ii %>%
+  filter(group %in% c("upper", "lower")) %>%
+  count(group, cor_if_head_lemma, name = "n") %>%
+  arrange(group, desc(n)) %>%
+  group_by(group) %>%
+  mutate(rank = row_number()) %>%
+  ungroup()
+
+top_labels <- per_lemma_freqs %>%
+  group_by(group) %>%
+  filter(rank <= 5)
+
+ggplot(per_lemma_freqs, aes(x = rank, y = n)) +
+  geom_point(alpha = 0.7) +
+  geom_line(alpha = 0.5) +
+  facet_wrap(~ group, nrow = 1) +
+  geom_text_repel(
+    data = top_labels,
+    aes(label = cor_if_head_lemma),
+    size = 3,
+    max.overlaps = Inf
+  ) +
+  scale_y_log10() +
+  labs(
+    title = "Lemma Frequency Distribution",
+    x = "Rank",
+    y = "Frequency (log scale)"
+  )
+```
+
 
